@@ -1,0 +1,406 @@
+2024-05-30 16:32:58 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-30 16:32:58 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-30 19:51:14 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadHttpMessage: 400, message='invalid constant string'
+2024-05-30 19:51:14 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-30 19:51:15 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-30 23:22:04 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-30 23:22:04 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-30 23:22:05 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-30 23:22:05 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 00:43:53 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 00:43:53 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 00:43:54 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 00:43:54 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 07:48:04 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 07:48:04 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 08:16:43 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 08:28:08 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 08:28:09 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 11:58:49 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 11:58:50 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 11:58:51 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 15:07:10 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 16:19:25 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 16:25:44 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 20:38:41 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 20:38:42 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-05-31 22:03:26 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 00:07:18 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 00:07:18 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 00:07:19 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 02:59:02 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 03:46:36 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 03:46:36 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 04:26:54 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 05:55:32 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 05:55:32 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 05:55:32 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 05:55:33 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 06:11:53 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 06:38:22 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 08:36:21 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 11:29:02 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 11:29:03 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-01 11:29:05 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 01:05:55 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 01:16:40 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 02:04:12 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 03:09:58 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 03:10:46 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 03:10:46 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 03:32:37 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 04:20:10 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 04:20:10 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 04:20:12 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 04:22:45 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 05:06:18 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 05:06:18 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 05:06:18 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 05:06:19 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 05:56:55 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 05:56:56 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-02 05:56:58 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-06 11:30:43 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-06 11:30:44 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-06 11:30:44 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-06 11:30:44 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-06 11:31:30 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"
+2024-06-06 11:31:30 ERROR:aiohttp.server:log_exception: Error handling request
+Traceback (most recent call last):
+  File "/home/ubuntu/snare/venv/lib/python3.9/site-packages/aiohttp/web_protocol.py", line 314, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 546, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'invalid HTTP method'"

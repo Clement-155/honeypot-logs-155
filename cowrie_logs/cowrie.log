@@ -1,0 +1,6 @@
+2024-06-09T01:09:38.284089Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 173.88.254.225:47544 (172.31.41.134:2222) [session: a8dba3ea637f]
+2024-06-09T01:09:38.285341Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-09T01:09:38.285450Z [HoneyPotSSHTransport,216,173.88.254.225] Connection lost after 0 seconds
+2024-06-09T02:48:38.016939Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 170.64.134.194:38414 (172.31.41.134:2222) [session: 66920c95290e]
+2024-06-09T02:48:38.019883Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-09T02:48:38.019993Z [HoneyPotSSHTransport,217,170.64.134.194] Connection lost after 0 seconds

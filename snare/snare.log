@@ -1,0 +1,184 @@
+
+2024-05-30 17:32:03 DEBUG:asyncio:__init__: Using selector: EpollSelector
+2024-05-30 17:32:03 DEBUG:git.cmd:execute: Popen(['git', 'fetch', '-v', '--', 'origin'], cwd=/home/ubuntu/snare, universal_newlines=True, shell=None, istream=None)
+2024-05-30 17:32:04 DEBUG:git.cmd:execute: Popen(['git', 'cat-file', '--batch-check'], cwd=/home/ubuntu/snare, universal_newlines=False, shell=None, istream=<valid stream>)
+2024-05-30 17:32:13 INFO:snare.server:handle_request: Request path: /index.html
+2024-05-30 17:32:13 INFO:aiohttp.access:log: 202.80.214.140 [30/May/2024:17:32:13 +0000] "GET /index.html HTTP/1.0" 200 11673 "-" "Lynx/2.9.0dev.10 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.7.1"
+2024-05-30 17:32:27 INFO:snare.server:handle_request: Request path: /index.html
+2024-05-30 17:32:27 INFO:aiohttp.access:log: 202.80.214.140 [30/May/2024:17:32:27 +0000] "GET /index.html HTTP/1.0" 200 11673 "-" "Lynx/2.9.0dev.10 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.7.1"
+2024-05-30 17:32:36 INFO:snare.server:handle_request: Request path: /index.html
+2024-05-30 17:32:36 INFO:aiohttp.access:log: 202.80.214.140 [30/May/2024:17:32:36 +0000] "GET /index.html HTTP/1.0" 200 11673 "-" "Lynx/2.9.0dev.10 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.7.1"
+2024-05-30 17:51:50 INFO:snare.server:handle_request: Request path: /
+2024-05-30 17:51:50 INFO:aiohttp.access:log: 162.216.149.86 [30/May/2024:17:51:50 +0000] "GET / HTTP/1.1" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-05-30 19:50:58 INFO:snare.server:handle_request: Request path: /
+2024-05-30 19:50:58 INFO:aiohttp.access:log: 87.236.176.49 [30/May/2024:19:50:58 +0000] "GET / HTTP/1.1" 200 11692 "-" "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+2024-05-30 19:51:15 INFO:snare.server:handle_request: Request path: /
+2024-05-30 19:51:15 INFO:aiohttp.access:log: 87.236.176.53 [30/May/2024:19:51:15 +0000] "OPTIONS / HTTP/1.0" 200 11673 "-" "-"
+2024-05-30 19:51:16 INFO:snare.server:handle_request: Request path: /nice%20ports%2C/Tri%6Eity.txt%2ebak
+2024-05-30 19:51:16 INFO:aiohttp.access:log: 87.236.176.53 [30/May/2024:19:51:16 +0000] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 359 "-" "-"
+2024-05-30 20:11:17 INFO:snare.server:handle_request: Request path: /
+2024-05-30 20:11:17 INFO:aiohttp.access:log: 185.180.140.6 [30/May/2024:20:11:17 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 "
+2024-05-30 21:36:28 INFO:snare.server:handle_request: Request path: /
+2024-05-30 21:36:28 INFO:aiohttp.access:log: 198.235.24.148 [30/May/2024:21:36:28 +0000] "GET / HTTP/1.1" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-05-30 23:02:56 INFO:snare.server:handle_request: Request path: /
+2024-05-30 23:02:56 INFO:aiohttp.access:log: 205.210.31.10 [30/May/2024:23:02:56 +0000] "GET / HTTP/1.1" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-05-30 23:22:04 INFO:aiohttp.access:log: 45.128.232.152 [30/May/2024:23:22:04 +0000] "CONNECT example.com:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-05-30 23:49:33 INFO:snare.server:handle_request: Request path: /index.html
+2024-05-30 23:49:33 INFO:aiohttp.access:log: 103.213.129.165 [30/May/2024:23:49:33 +0000] "GET /index.html HTTP/1.0" 200 11673 "-" "Lynx/2.9.0dev.10 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.7.1"
+2024-05-31 00:43:53 INFO:aiohttp.access:log: 45.128.232.152 [31/May/2024:00:43:53 +0000] "CONNECT example.com:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-05-31 03:42:55 INFO:snare.server:handle_request: Request path: /
+2024-05-31 03:42:55 INFO:aiohttp.access:log: 205.210.31.138 [31/May/2024:03:42:55 +0000] "GET / HTTP/1.0" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-05-31 03:43:29 INFO:snare.server:handle_request: Request path: /
+2024-05-31 03:43:29 INFO:aiohttp.access:log: 147.185.132.69 [31/May/2024:03:43:29 +0000] "GET / HTTP/1.0" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-05-31 05:07:52 INFO:snare.server:handle_request: Request path: /
+2024-05-31 05:07:52 INFO:aiohttp.access:log: 185.180.143.71 [31/May/2024:05:07:52 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 "
+2024-05-31 06:01:11 INFO:snare.server:handle_request: Request path: /
+2024-05-31 06:01:11 INFO:aiohttp.access:log: 78.108.177.51 [31/May/2024:06:01:11 +0000] "GET / HTTP/1.0" 200 11673 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0;  Trident/5.0)"
+2024-05-31 08:16:42 INFO:aiohttp.access:log: 74.84.150.50 [31/May/2024:08:16:42 +0000] "CONNECT google.com:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-05-31 08:28:09 INFO:snare.server:handle_request: Request path: /
+2024-05-31 08:28:10 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:09 +0000] "GET / HTTP/1.1" 200 11692 "-" "Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA2022) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.5200.98 Mobile Safari/537.3"
+2024-05-31 08:28:10 INFO:snare.server:handle_request: Request path: /server
+2024-05-31 08:28:10 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:10 +0000] "GET /server HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:11 INFO:snare.server:handle_request: Request path: /.vscode/sftp.json
+2024-05-31 08:28:11 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:11 +0000] "GET /.vscode/sftp.json HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:11 INFO:snare.server:handle_request: Request path: /about
+2024-05-31 08:28:11 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:11 +0000] "GET /about HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:12 INFO:snare.server:handle_request: Request path: /debug/default/view?panel=config
+2024-05-31 08:28:12 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:12 +0000] "GET /debug/default/view?panel=config HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:12 INFO:snare.server:handle_request: Request path: /v2/_catalog
+2024-05-31 08:28:12 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:12 +0000] "GET /v2/_catalog HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:13 INFO:snare.server:handle_request: Request path: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+2024-05-31 08:28:13 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:13 +0000] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:14 INFO:snare.server:handle_request: Request path: /server-status
+2024-05-31 08:28:14 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:14 +0000] "GET /server-status HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:14 INFO:snare.server:handle_request: Request path: /_all_dbs
+2024-05-31 08:28:14 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:14 +0000] "GET /_all_dbs HTTP/1.1" 404 378 "-" "Mozilla/5.0 (l9scan/2.0.432313e2131313e25323e233; +https://leakix.net)"
+2024-05-31 08:28:15 INFO:snare.server:handle_request: Request path: /.DS_Store
+2024-05-31 08:28:15 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:15 +0000] "GET /.DS_Store HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:15 INFO:snare.server:handle_request: Request path: /.env
+2024-05-31 08:28:15 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:15 +0000] "GET /.env HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:16 INFO:snare.server:handle_request: Request path: /.git/config
+2024-05-31 08:28:16 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:16 +0000] "GET /.git/config HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:17 INFO:snare.server:handle_request: Request path: /s/432313e2131313e25323e233/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties
+2024-05-31 08:28:17 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:17 +0000] "GET /s/432313e2131313e25323e233/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:17 INFO:snare.server:handle_request: Request path: /config.json
+2024-05-31 08:28:17 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:17 +0000] "GET /config.json HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:18 INFO:snare.server:handle_request: Request path: /telescope/requests
+2024-05-31 08:28:18 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:18 +0000] "GET /telescope/requests HTTP/1.1" 404 378 "-" "Go-http-client/1.1"
+2024-05-31 08:28:18 INFO:snare.server:handle_request: Request path: /?rest_route=/wp/v2/users/
+2024-05-31 08:28:18 INFO:aiohttp.access:log: 206.189.2.13 [31/May/2024:08:28:18 +0000] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 11692 "-" "Go-http-client/1.1"
+2024-05-31 08:56:18 INFO:snare.server:handle_request: Request path: /
+2024-05-31 08:56:18 INFO:aiohttp.access:log: 35.203.211.48 [31/May/2024:08:56:18 +0000] "GET / HTTP/1.1" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-05-31 09:05:37 INFO:snare.server:handle_request: Request path: /boaform/admin/formLogin?username=adminisp&psd=adminisp
+2024-05-31 09:05:37 INFO:aiohttp.access:log: 120.57.222.102 [31/May/2024:09:05:37 +0000] "GET /boaform/admin/formLogin?username=adminisp&psd=adminisp HTTP/1.0" 404 359 "-" "-"
+2024-05-31 11:58:50 INFO:snare.server:handle_request: Request path: /
+2024-05-31 11:58:50 INFO:aiohttp.access:log: 161.35.133.186 [31/May/2024:11:58:50 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+2024-05-31 11:58:51 INFO:snare.server:handle_request: Request path: /download/powershell/
+2024-05-31 11:58:51 INFO:aiohttp.access:log: 161.35.133.186 [31/May/2024:11:58:51 +0000] "GET /download/powershell/ HTTP/1.1" 404 359 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+2024-05-31 12:12:20 INFO:snare.server:handle_request: Request path: /
+2024-05-31 12:12:20 INFO:aiohttp.access:log: 64.62.197.10 [31/May/2024:12:12:20 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0"
+2024-05-31 12:12:41 INFO:snare.server:handle_request: Request path: /favicon.ico
+2024-05-31 12:12:41 INFO:aiohttp.access:log: 64.62.197.9 [31/May/2024:12:12:41 +0000] "GET /favicon.ico HTTP/1.1" 404 359 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+2024-05-31 12:12:55 INFO:snare.server:handle_request: Request path: http://api.ipify.org/?format=json
+2024-05-31 12:12:55 INFO:aiohttp.access:log: 64.62.197.13 [31/May/2024:12:12:55 +0000] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 359 "-" "Mozilla/5.0 (Windows NT 10.0; rv:110.0) Gecko/20100101 Firefox/110.0"
+2024-05-31 15:07:10 INFO:aiohttp.access:log: 74.84.150.50 [31/May/2024:15:07:10 +0000] "CONNECT www.google.com:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-05-31 16:19:25 INFO:aiohttp.access:log: 104.167.222.178 [31/May/2024:16:19:25 +0000] "CONNECT www.google.com:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-05-31 16:25:40 INFO:snare.server:handle_request: Request path: /
+2024-05-31 16:25:40 INFO:aiohttp.access:log: 206.168.34.181 [31/May/2024:16:25:40 +0000] "GET / HTTP/1.1" 200 11673 "-" "-"
+2024-05-31 16:25:44 INFO:snare.server:handle_request: Request path: /
+2024-05-31 16:25:44 INFO:aiohttp.access:log: 206.168.34.181 [31/May/2024:16:25:44 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+2024-05-31 16:25:44 INFO:snare.server:handle_request: Request path: /favicon.ico
+2024-05-31 16:25:45 INFO:aiohttp.access:log: 206.168.34.181 [31/May/2024:16:25:44 +0000] "GET /favicon.ico HTTP/1.1" 404 378 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+2024-05-31 16:29:16 INFO:snare.server:handle_request: Request path: http://uplo.ad/?v=1&ip=3.25.111.124&port=8080
+2024-05-31 16:29:16 INFO:aiohttp.access:log: 170.64.214.114 [31/May/2024:16:29:16 +0000] "GET http://uplo.ad/?v=1&ip=3.25.111.124&port=8080 HTTP/1.1" 404 359 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36"
+2024-05-31 17:05:30 INFO:snare.server:handle_request: Request path: /
+2024-05-31 17:05:30 INFO:aiohttp.access:log: 92.249.48.237 [31/May/2024:17:05:30 +0000] "GET / HTTP/1.1" 200 11692 "-" "Linux Gnu (cow) "
+2024-06-01 00:07:19 INFO:snare.server:handle_request: Request path: /
+2024-06-01 00:07:19 INFO:aiohttp.access:log: 68.183.145.89 [01/Jun/2024:00:07:19 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+2024-06-01 00:07:19 INFO:snare.server:handle_request: Request path: /download/powershell/
+2024-06-01 00:07:19 INFO:aiohttp.access:log: 68.183.145.89 [01/Jun/2024:00:07:19 +0000] "GET /download/powershell/ HTTP/1.1" 404 359 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+2024-06-01 00:12:51 INFO:snare.server:handle_request: Request path: /
+2024-06-01 00:12:51 INFO:aiohttp.access:log: 205.210.31.105 [01/Jun/2024:00:12:51 +0000] "GET / HTTP/1.0" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-06-01 01:03:33 INFO:snare.server:handle_request: Request path: /
+2024-06-01 01:03:33 INFO:aiohttp.access:log: 78.108.177.51 [01/Jun/2024:01:03:33 +0000] "GET / HTTP/1.0" 200 11673 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0;  Trident/5.0)"
+2024-06-01 02:19:27 INFO:snare.server:handle_request: Request path: /
+2024-06-01 02:19:27 INFO:aiohttp.access:log: 120.52.92.195 [01/Jun/2024:02:19:27 +0000] "GET / HTTP/1.1" 200 11692 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
+2024-06-01 02:59:01 INFO:aiohttp.access:log: 87.121.69.52 [01/Jun/2024:02:59:01 +0000] "CONNECT google.com:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-06-01 03:39:46 INFO:snare.server:handle_request: Request path: /
+2024-06-01 03:39:46 INFO:aiohttp.access:log: 13.83.43.53 [01/Jun/2024:03:39:46 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 zgrab/0.x"
+2024-06-01 04:26:50 INFO:snare.server:handle_request: Request path: /
+2024-06-01 04:26:50 INFO:aiohttp.access:log: 167.94.146.62 [01/Jun/2024:04:26:50 +0000] "GET / HTTP/1.1" 200 11673 "-" "-"
+2024-06-01 04:26:53 INFO:snare.server:handle_request: Request path: /
+2024-06-01 04:26:53 INFO:aiohttp.access:log: 167.94.146.62 [01/Jun/2024:04:26:53 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+2024-06-01 04:26:55 INFO:snare.server:handle_request: Request path: /favicon.ico
+2024-06-01 04:26:55 INFO:aiohttp.access:log: 167.94.146.62 [01/Jun/2024:04:26:55 +0000] "GET /favicon.ico HTTP/1.1" 404 378 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+2024-06-01 04:58:12 INFO:snare.server:handle_request: Request path: /
+2024-06-01 04:58:12 INFO:aiohttp.access:log: 104.152.52.107 [01/Jun/2024:04:58:12 +0000] "GET / HTTP/1.0" 200 11673 "-" "masscan/1.3 (https://github.com/robertdavidgraham/masscan)"
+2024-06-01 05:44:57 INFO:snare.server:handle_request: Request path: /
+2024-06-01 05:44:57 INFO:aiohttp.access:log: 78.108.177.50 [01/Jun/2024:05:44:57 +0000] "GET / HTTP/1.0" 200 11673 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0;  Trident/5.0)"
+2024-06-01 05:55:31 INFO:aiohttp.access:log: 45.128.232.152 [01/Jun/2024:05:55:31 +0000] "CONNECT example.com:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-06-01 06:13:47 INFO:snare.server:handle_request: Request path: /
+2024-06-01 06:13:47 INFO:aiohttp.access:log: 64.62.197.43 [01/Jun/2024:06:13:47 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0"
+2024-06-01 06:14:08 INFO:snare.server:handle_request: Request path: /favicon.ico
+2024-06-01 06:14:08 INFO:aiohttp.access:log: 64.62.197.36 [01/Jun/2024:06:14:08 +0000] "GET /favicon.ico HTTP/1.1" 404 359 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+2024-06-01 06:14:21 INFO:snare.server:handle_request: Request path: http://api.ipify.org/?format=json
+2024-06-01 06:14:21 INFO:aiohttp.access:log: 64.62.197.36 [01/Jun/2024:06:14:21 +0000] "GET http://api.ipify.org/?format=json HTTP/1.1" 404 359 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0"
+2024-06-01 06:14:25 INFO:aiohttp.access:log: 64.62.197.35 [01/Jun/2024:06:14:25 +0000] "CONNECT www.shadowserver.org:443 HTTP/1.1" 200 359 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0"
+2024-06-01 06:38:18 INFO:snare.server:handle_request: Request path: /
+2024-06-01 06:38:18 INFO:aiohttp.access:log: 206.168.34.181 [01/Jun/2024:06:38:18 +0000] "GET / HTTP/1.1" 200 11673 "-" "-"
+2024-06-01 06:38:22 INFO:snare.server:handle_request: Request path: /
+2024-06-01 06:38:22 INFO:aiohttp.access:log: 206.168.34.181 [01/Jun/2024:06:38:22 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+2024-06-01 06:38:23 INFO:snare.server:handle_request: Request path: /favicon.ico
+2024-06-01 06:38:23 INFO:aiohttp.access:log: 206.168.34.181 [01/Jun/2024:06:38:23 +0000] "GET /favicon.ico HTTP/1.1" 404 378 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+2024-06-01 08:18:23 INFO:snare.server:handle_request: Request path: /
+2024-06-01 08:18:23 INFO:aiohttp.access:log: 198.235.24.5 [01/Jun/2024:08:18:23 +0000] "GET / HTTP/1.0" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-06-01 08:36:21 INFO:aiohttp.access:log: 74.84.150.50 [01/Jun/2024:08:36:21 +0000] "CONNECT www.google.com:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-06-01 09:39:53 INFO:snare.server:handle_request: Request path: /
+2024-06-01 09:39:53 INFO:aiohttp.access:log: 121.41.54.18 [01/Jun/2024:09:39:53 +0000] "GET / HTTP/1.1" 200 11692 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
+2024-06-01 11:29:04 INFO:snare.server:handle_request: Request path: /
+2024-06-01 11:29:04 INFO:aiohttp.access:log: 178.128.171.204 [01/Jun/2024:11:29:04 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+2024-06-01 11:29:04 INFO:snare.server:handle_request: Request path: /download/powershell/
+2024-06-01 11:29:04 INFO:aiohttp.access:log: 178.128.171.204 [01/Jun/2024:11:29:04 +0000] "GET /download/powershell/ HTTP/1.1" 404 359 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+2024-06-01 11:45:19 INFO:snare.server:handle_request: Request path: /
+2024-06-01 11:45:19 INFO:aiohttp.access:log: 205.210.31.27 [01/Jun/2024:11:45:19 +0000] "GET / HTTP/1.1" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-06-01 12:37:14 INFO:snare.server:handle_request: Request path: /
+2024-06-01 12:37:14 INFO:aiohttp.access:log: 45.155.91.134 [01/Jun/2024:12:37:14 +0000] "GET / HTTP/1.1" 200 11692 "-" "Linux Gnu (cow) "
+2024-06-01 13:17:32 INFO:snare.server:handle_request: Request path: /
+2024-06-01 13:17:32 INFO:aiohttp.access:log: 35.216.182.9 [01/Jun/2024:13:17:32 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0"
+2024-06-01 20:16:11 INFO:snare.server:handle_request: Request path: /
+2024-06-01 20:16:11 INFO:aiohttp.access:log: 45.155.91.134 [01/Jun/2024:20:16:11 +0000] "GET / HTTP/1.1" 200 11692 "-" "Linux Gnu (cow) "
+2024-06-01 20:33:56 INFO:snare.server:handle_request: Request path: /
+2024-06-01 20:33:56 INFO:aiohttp.access:log: 198.235.24.99 [01/Jun/2024:20:33:56 +0000] "GET / HTTP/1.0" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-06-01 23:26:27 INFO:snare.server:handle_request: Request path: /
+2024-06-01 23:26:27 INFO:aiohttp.access:log: 206.217.128.98 [01/Jun/2024:23:26:27 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0"
+2024-06-02 01:05:55 INFO:aiohttp.access:log: 87.121.69.27 [02/Jun/2024:01:05:55 +0000] "CONNECT api.rev.pm:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-06-02 01:16:36 INFO:snare.server:handle_request: Request path: /
+2024-06-02 01:16:36 INFO:aiohttp.access:log: 199.45.155.34 [02/Jun/2024:01:16:36 +0000] "GET / HTTP/1.1" 200 11673 "-" "-"
+2024-06-02 01:16:40 INFO:snare.server:handle_request: Request path: /
+2024-06-02 01:16:40 INFO:aiohttp.access:log: 199.45.155.34 [02/Jun/2024:01:16:40 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+2024-06-02 01:16:41 INFO:snare.server:handle_request: Request path: /favicon.ico
+2024-06-02 01:16:41 INFO:aiohttp.access:log: 199.45.155.34 [02/Jun/2024:01:16:41 +0000] "GET /favicon.ico HTTP/1.1" 404 378 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+2024-06-02 02:16:30 INFO:snare.server:handle_request: Request path: /
+2024-06-02 02:16:30 INFO:aiohttp.access:log: 198.235.24.134 [02/Jun/2024:02:16:30 +0000] "GET / HTTP/1.0" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-06-02 03:05:58 INFO:snare.server:handle_request: Request path: /
+2024-06-02 03:05:58 INFO:aiohttp.access:log: 205.210.31.136 [02/Jun/2024:03:05:58 +0000] "GET / HTTP/1.1" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-06-02 03:09:58 INFO:aiohttp.access:log: 87.121.69.52 [02/Jun/2024:03:09:58 +0000] "CONNECT google.com:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-06-02 03:32:36 INFO:aiohttp.access:log: 92.249.48.210 [02/Jun/2024:03:32:36 +0000] "CONNECT www.google.com:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-06-02 03:51:10 INFO:snare.server:handle_request: Request path: /
+2024-06-02 03:51:10 INFO:aiohttp.access:log: 198.235.24.222 [02/Jun/2024:03:51:10 +0000] "GET / HTTP/1.1" 200 11673 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+2024-06-02 04:20:11 INFO:snare.server:handle_request: Request path: /
+2024-06-02 04:20:11 INFO:aiohttp.access:log: 159.203.97.133 [02/Jun/2024:04:20:11 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+2024-06-02 04:20:11 INFO:snare.server:handle_request: Request path: /download/powershell/
+2024-06-02 04:20:11 INFO:aiohttp.access:log: 159.203.97.133 [02/Jun/2024:04:20:11 +0000] "GET /download/powershell/ HTTP/1.1" 404 359 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+2024-06-02 04:22:41 INFO:snare.server:handle_request: Request path: /
+2024-06-02 04:22:41 INFO:aiohttp.access:log: 199.45.155.59 [02/Jun/2024:04:22:41 +0000] "GET / HTTP/1.1" 200 11673 "-" "-"
+2024-06-02 04:22:44 INFO:snare.server:handle_request: Request path: /
+2024-06-02 04:22:44 INFO:aiohttp.access:log: 199.45.155.59 [02/Jun/2024:04:22:44 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+2024-06-02 04:22:45 INFO:snare.server:handle_request: Request path: /favicon.ico
+2024-06-02 04:22:45 INFO:aiohttp.access:log: 199.45.155.59 [02/Jun/2024:04:22:45 +0000] "GET /favicon.ico HTTP/1.1" 404 378 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+2024-06-02 05:06:17 INFO:aiohttp.access:log: 45.128.232.152 [02/Jun/2024:05:06:17 +0000] "CONNECT example.com:443 HTTP/1.1" 200 359 "-" "Go-http-client/1.1"
+2024-06-02 05:56:56 INFO:snare.server:handle_request: Request path: /
+2024-06-02 05:56:56 INFO:aiohttp.access:log: 167.71.74.166 [02/Jun/2024:05:56:56 +0000] "GET / HTTP/1.1" 200 11673 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+2024-06-02 05:56:57 INFO:snare.server:handle_request: Request path: /download/powershell/
+2024-06-02 05:56:57 INFO:aiohttp.access:log: 167.71.74.166 [02/Jun/2024:05:56:57 +0000] "GET /download/powershell/ HTTP/1.1" 404 359 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+
